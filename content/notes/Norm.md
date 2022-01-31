@@ -10,9 +10,9 @@ A function $\|\cdot\|: V\to \mathbb{R}$ is a norm if it satisfies the followings
 For arbitrary $\mathbf{x},\mathbf{y}\in V$ and $c \in \mathbb{R}$,
 $$
 \begin{align*}
-&(1) \quad \text{Subadditivity:}   \; &&\|x+y\| \leq \|x\| + \|y\|\\[1pt]
-&(2) \quad \text{Absolute homogeneity:}   \; &&c\|x\| = |c|\|x\|\\[1pt]
-&(3) \quad \text{Positive semidefiniteness:}   \; &&\|x\|\geq 0, \|\mathbf{x}\| = 0 \;\text{if and only if}\;\mathbf{x}=\mathbf{0}\\[1pt]
+&(1) \quad \text{Subadditivity:}   \; &&\|x+y\| \leq \|x\| + \|y\|\\
+&(2) \quad \text{Absolute homogeneity:}   \; &&c\|x\| = |c|\|x\|\\
+&(3) \quad \text{Positive semidefiniteness:}   \; &&\|x\|\geq 0, \|\mathbf{x}\| = 0 \;\text{if and only if}\;\mathbf{x}=\mathbf{0}\\
 \end{align*}
 $$
 
