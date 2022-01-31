@@ -7,16 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://azure-wings.github.io/azure-garden/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>{{Cauchy-Schwartz Inequality}}</title>
+      <title>Cauchy-Schwartz Inequality</title>
       <link>https://azure-wings.github.io/azure-garden/notes/Cauchy-Schwartz-inequality/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://azure-wings.github.io/azure-garden/notes/Cauchy-Schwartz-inequality/</guid>
-      <description>Cauchy-Schwartz Inequality Theorem For any vectors $\vx,\vy \in \Rb^n$, $$ |\vx^\top\vy| \leq |\vx|_2|\vy|_2.</description>
+      <description>Cauchy-Schwartz Inequality Theorem For any vectors $\mathbf{x},\mathbf{y} \in \mathbb{R}^n$, $$ |\mathbf{x}^\top\mathbf{y}| \leq |\mathbf{x}|_2|\mathbf{y}|_2.</description>
     </item>
     
     <item>
-      <title>{{Field}}</title>
+      <title>Field</title>
       <link>https://azure-wings.github.io/azure-garden/notes/Field/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -25,16 +25,16 @@
     </item>
     
     <item>
-      <title>{{Hölder&#39;s Inequality}}</title>
+      <title>Hölder&#39;s Inequality</title>
       <link>https://azure-wings.github.io/azure-garden/notes/H%C3%B6lders-inequality/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://azure-wings.github.io/azure-garden/notes/H%C3%B6lders-inequality/</guid>
-      <description>Hölder&amp;rsquo;s Inequality Theorem For any vectors $\vx,\vy \in \Rb^n$ and for any $p,q \geq 1$ such that $\frac{1}{p} + \frac{1}{q} = 1$, it holds that $$ |\vx^\top\vy| \leq \sum\limits_{i=1}^n|x_iy_i| \leq |\vx|_p|\vy|_q.</description>
+      <description>Hölder&amp;rsquo;s Inequality Theorem For any vectors $\mathbf{x},\mathbf{y} \in \mathbb{R}^n$ and for any $p,q \geq 1$ such that $\frac{1}{p} + \frac{1}{q} = 1$, it holds that $$ |\mathbf{x}^\top\mathbf{y}| \leq \sum\limits_{i=1}^n|x_iy_i| \leq |\mathbf{x}|_p|\mathbf{y}|_q.</description>
     </item>
     
     <item>
-      <title>{{Inner product}}</title>
+      <title>Inner product</title>
       <link>https://azure-wings.github.io/azure-garden/notes/Inner-product/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -44,7 +44,7 @@ Definition An inner product on a vector space $V$ over a field is a function $\l
     </item>
     
     <item>
-      <title>{{Norm}}</title>
+      <title>Norm</title>
       <link>https://azure-wings.github.io/azure-garden/notes/Norm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -54,13 +54,13 @@ Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the f
     </item>
     
     <item>
-      <title>{{Vector space}}</title>
+      <title>Vector space</title>
       <link>https://azure-wings.github.io/azure-garden/notes/Vector-space/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://azure-wings.github.io/azure-garden/notes/Vector-space/</guid>
       <description>Vector space Intuition WIP
-Definition A nonempty set $V$, associated with a [[Field]] $F$, is called a vector space if it satisfies the followings: For arbitrary $\mathbf{x}, \mathbf{y}, \mathbf{z}\in V$ and $a,b\in F$ 1 $$\begin{align*} &amp;amp;(1) \quad \text{Commutativity:} ; &amp;amp;&amp;amp;\mathbf{x}+\mathbf{y}=\mathbf{y}+\mathbf{x}\[1pt] &amp;amp;(2) \quad \text{Associativity:} ; &amp;amp;&amp;amp;\begin{cases}(\mathbf{x}+\mathbf{y})+\mathbf{z}=\mathbf{x}+(\mathbf{y}+\mathbf{z})\[1pt] a(b\mathbf{x})=(ab)\mathbf{x}\end{cases}\[1pt] &amp;amp;(3) \quad \text{Additive Identity:} ; &amp;amp;&amp;amp;\exists ;\mathbf{0}\in V; \text{s.</description>
+Definition A nonempty set $V$, associated with a field $F$, is called a vector space if it satisfies the followings: For arbitrary $\mathbf{x}, \mathbf{y}, \mathbf{z}\in V$ and $a,b\in F$ 1 $$\begin{align*} &amp;amp;(1) \quad \text{Commutativity:} ; &amp;amp;&amp;amp;\mathbf{x}+\mathbf{y}=\mathbf{y}+\mathbf{x}\[1pt] &amp;amp;(2) \quad \text{Associativity:} ; &amp;amp;&amp;amp;\begin{cases}(\mathbf{x}+\mathbf{y})+\mathbf{z}=\mathbf{x}+(\mathbf{y}+\mathbf{z})\[1pt] a(b\mathbf{x})=(ab)\mathbf{x}\end{cases}\[1pt] &amp;amp;(3) \quad \text{Additive Identity:} ; &amp;amp;&amp;amp;\exists ;\mathbf{0}\in V; \text{s.</description>
     </item>
     
   </channel>
