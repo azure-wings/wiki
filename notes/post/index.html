@@ -3,8 +3,8 @@
 <head>
     
     <meta charset="UTF-8">
-    <meta name="description" content="">
-    <title>Field</title>
+    <meta name="description" content="Linear algebra is the branch of mathematics concerning linear equations, linear transformations (maps), and their representations in vector spaces and through matrices.">
+    <title>Linear algebra</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="../../icon.png" />
 
@@ -47,27 +47,7 @@
     const index = {"backlinks":{"/index/Books":[{"source":"/","target":"/index/Books","text":"Books"}],"/index/Business-administration":[{"source":"/","target":"/index/Business-administration","text":"Business administration"}],"/index/Computer-science":[{"source":"/","target":"/index/Computer-science","text":"Computer science"}],"/index/Economics":[{"source":"/","target":"/index/Economics","text":"Economics"}],"/index/Mathematics":[{"source":"/","target":"/index/Mathematics","text":"Mathematics"}],"/index/Movies":[{"source":"/","target":"/index/Movies","text":"Movies"}],"/notes/Field":[{"source":"/notes/Inner-product","target":"/notes/Field","text":"field"},{"source":"/notes/Vector-space","target":"/notes/Field","text":"field"},{"source":"/notes/post","target":"/notes/Field","text":"Field"}],"/notes/H%C3%B6lders-inequality":[{"source":"/notes/Cauchy-Schwartz-inequality","target":"/notes/H%C3%B6lders-inequality","text":"Hölder's inequality"}],"/notes/Inner-product":[{"source":"/notes/Vector-space","target":"/notes/Inner-product","text":"Inner product"},{"source":"/notes/post","target":"/notes/Inner-product","text":"Inner product"}],"/notes/Linear-algebra":[{"source":"/index/Mathematics","target":"/notes/Linear-algebra","text":"Linear algebra"}],"/notes/Norm":[{"source":"/notes/Inner-product","target":"/notes/Norm","text":"norm"},{"source":"/notes/Vector-space","target":"/notes/Norm","text":"Norm"}],"/notes/Vector-space":[{"source":"/notes/Inner-product","target":"/notes/Vector-space","text":"vector space"},{"source":"/notes/post","target":"/notes/Vector-space","text":"Vector space"}]},"links":{"/":[{"source":"/","target":"/index/Mathematics","text":"Mathematics"},{"source":"/","target":"/index/Computer-science","text":"Computer science"},{"source":"/","target":"/index/Business-administration","text":"Business administration"},{"source":"/","target":"/index/Economics","text":"Economics"},{"source":"/","target":"/index/Books","text":"Books"},{"source":"/","target":"/index/Movies","text":"Movies"}],"/index/Mathematics":[{"source":"/index/Mathematics","target":"/notes/Linear-algebra","text":"Linear algebra"}],"/notes/Cauchy-Schwartz-inequality":[{"source":"/notes/Cauchy-Schwartz-inequality","target":"/notes/H%C3%B6lders-inequality","text":"Hölder's inequality"}],"/notes/Inner-product":[{"source":"/notes/Inner-product","target":"/notes/Vector-space","text":"vector space"},{"source":"/notes/Inner-product","target":"/notes/Field","text":"field"},{"source":"/notes/Inner-product","target":"/notes/Norm","text":"norm"}],"/notes/Vector-space":[{"source":"/notes/Vector-space","target":"/notes/Field","text":"field"},{"source":"/notes/Vector-space","target":"/notes/Norm","text":"Norm"},{"source":"/notes/Vector-space","target":"/notes/Inner-product","text":"Inner product"}],"/notes/post":[{"source":"/notes/post","target":"/notes/Vector-space","text":"Vector space"},{"source":"/notes/post","target":"/notes/Field","text":"Field"},{"source":"/notes/post","target":"/notes/Inner-product","text":"Inner product"}]}}
     const links = [{"source":"/","target":"/index/Mathematics","text":"Mathematics"},{"source":"/","target":"/index/Computer-science","text":"Computer science"},{"source":"/","target":"/index/Business-administration","text":"Business administration"},{"source":"/","target":"/index/Economics","text":"Economics"},{"source":"/","target":"/index/Books","text":"Books"},{"source":"/","target":"/index/Movies","text":"Movies"},{"source":"/index/Mathematics","target":"/notes/Linear-algebra","text":"Linear algebra"},{"source":"/notes/Cauchy-Schwartz-inequality","target":"/notes/H%C3%B6lders-inequality","text":"Hölder's inequality"},{"source":"/notes/Inner-product","target":"/notes/Vector-space","text":"vector space"},{"source":"/notes/Inner-product","target":"/notes/Field","text":"field"},{"source":"/notes/Inner-product","target":"/notes/Norm","text":"norm"},{"source":"/notes/Vector-space","target":"/notes/Field","text":"field"},{"source":"/notes/Vector-space","target":"/notes/Norm","text":"Norm"},{"source":"/notes/Vector-space","target":"/notes/Inner-product","text":"Inner product"},{"source":"/notes/post","target":"/notes/Vector-space","text":"Vector space"},{"source":"/notes/post","target":"/notes/Field","text":"Field"},{"source":"/notes/post","target":"/notes/Inner-product","text":"Inner product"}]
     </script>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script>
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']],
-      displayMath: [['$$','$$'], ['\\[', '\\]']],
-      processEscapes: true,
-      processEnvironments: true
-    },
-    options: {
-      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-    }
-  };
-
-  window.addEventListener('load', (event) => {
-      document.querySelectorAll("mjx-container").forEach(function(x){
-        x.parentElement.classList += 'has-jax'})
-    });
-
-</script>
+    
 </head>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-K0BSVL4NZ3"></script>
@@ -396,7 +376,7 @@ if (!doNotTrack) {
 </div>
   </header>
   <article>
-      <h1>Field</h1>
+      <h1>Linear algebra</h1>
       <p class="meta">
           Last updated February 1, 2022
       </p>
@@ -406,10 +386,36 @@ if (!doNotTrack) {
       
       <aside class="mainTOC">
           <h3>Table of Contents</h3>
-          <nav id="TableOfContents"></nav>
+          <nav id="TableOfContents">
+  <ol>
+    <li><a href="#vector-space">Vector Space</a></li>
+    <li><a href="#linear-transformation">Linear Transformation</a></li>
+    <li><a href="#inner-product-space">Inner Product Space</a></li>
+  </ol>
+</nav>
       </aside>
       
-      
+      <p>Linear algebra is the branch of mathematics concerning linear equations, linear transformations (maps), and their representations in vector spaces and through matrices.</p>
+<h2 id="vector-space">Vector Space</h2>
+<ul>
+<li>
+
+
+<a href="../../notes/Vector-space" rel="noopener" class="internal-link" data-src="../../notes/Vector-space">Vector space</a></li>
+<li>
+
+
+<a href="../../notes/Field" rel="noopener" class="internal-link" data-src="../../notes/Field">Field</a></li>
+</ul>
+<h2 id="linear-transformation">Linear Transformation</h2>
+<h2 id="inner-product-space">Inner Product Space</h2>
+<ul>
+<li>
+
+
+<a href="../../notes/Inner-product" rel="noopener" class="internal-link" data-src="../../notes/Inner-product">Inner product</a></li>
+</ul>
+
 
     </article>
     <hr/>
@@ -424,12 +430,9 @@ if (!doNotTrack) {
     
     
     <li>
-            <a href="../../notes/Inner-product">Inner product</a>
-        </li><li>
-            <a href="../../notes/Vector-space">Vector space</a>
-        </li><li>
-            <a href="../../notes/post">Linear algebra</a>
-        </li>
+        No backlinks found
+    </li>
+    
 </ul>
 
     </div>
@@ -447,7 +450,7 @@ if (!doNotTrack) {
     }
 </style>
 <script>
-  const curPage = "https://azure-wings.github.io/wiki/notes/Field".replace("https://azure-wings.github.io/wiki", "")
+  const curPage = "https://azure-wings.github.io/wiki/notes/post".replace("https://azure-wings.github.io/wiki", "")
   const pathColors = [{"/moc":"#4388cc"}]
   let depth =  -1 
 

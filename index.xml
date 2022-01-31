@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>🪴 Quartz 3 on </title>
+    <title>wiki on </title>
     <link>https://azure-wings.github.io/wiki/</link>
-    <description>Recent content in 🪴 Quartz 3 on </description>
+    <description>Recent content in wiki on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://azure-wings.github.io/wiki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Books</title>
+      <link>https://azure-wings.github.io/wiki/index/Books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/index/Books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Business administration</title>
+      <link>https://azure-wings.github.io/wiki/index/Business-administration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/index/Business-administration/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Cauchy-Schwartz Inequality</title>
       <link>https://azure-wings.github.io/wiki/notes/Cauchy-Schwartz-inequality/</link>
@@ -13,6 +31,24 @@
       
       <guid>https://azure-wings.github.io/wiki/notes/Cauchy-Schwartz-inequality/</guid>
       <description>Theorem For any vectors $\mathbf{x},\mathbf{y} \in \mathbb{R}^n$, $$ |\mathbf{x}^\top\mathbf{y}| \leq |\mathbf{x}|_2|\mathbf{y}|_2.</description>
+    </item>
+    
+    <item>
+      <title>Computer science</title>
+      <link>https://azure-wings.github.io/wiki/index/Computer-science/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/index/Computer-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Economics</title>
+      <link>https://azure-wings.github.io/wiki/index/Economics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/index/Economics/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -41,6 +77,33 @@
       <guid>https://azure-wings.github.io/wiki/notes/Inner-product/</guid>
       <description>Intuition WIP
 Definition An inner product on a vector space $V$ over a field is a function $\langle \cdot,\cdot\rangle:V^2 \to F$ that satisfies the followings: For arbitrary $\mathbf{x}, \mathbf{y}, \mathbf{z} \in V$ and $c \in \mathbb{R}$, $$\begin{align*} &amp;amp;(1) \quad \text{Linearity for the first argument:} &amp;amp;&amp;amp;\langle a\mathbf{x}+\mathbf{y},\mathbf{z}\rangle = a\langle \mathbf{x},\mathbf{z}\rangle + \langle \mathbf{y},\mathbf{z}\rangle \\[2pt] &amp;amp;(2) \quad \text{Conjugate symmetry}: &amp;amp;&amp;amp;\langle \mathbf{x},\mathbf{y}\rangle = \overline{\langle \mathbf{y},\mathbf{x}\rangle} \\[2pt] &amp;amp;(3) \quad \text{Positive semidefiniteness:} &amp;amp;&amp;amp;\langle \mathbf{x},\mathbf{x}\rangle \geq 0, \langle\mathbf{x},\mathbf{x}\rangle = 0;\text{if and only if};\mathbf{x}=\mathbf{0}\\ \end{align*}$$</description>
+    </item>
+    
+    <item>
+      <title>Linear algebra</title>
+      <link>https://azure-wings.github.io/wiki/notes/post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/post/</guid>
+      <description>Linear algebra is the branch of mathematics concerning linear equations, linear transformations (maps), and their representations in vector spaces and through matrices.</description>
+    </item>
+    
+    <item>
+      <title>Mathematics</title>
+      <link>https://azure-wings.github.io/wiki/index/Mathematics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/index/Mathematics/</guid>
+      <description>Mathematics is a study of abstract concepts such as numbers, quantities, spaces, changes, structures, etc.</description>
+    </item>
+    
+    <item>
+      <title>Movies</title>
+      <link>https://azure-wings.github.io/wiki/index/Movies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/index/Movies/</guid>
+      <description></description>
     </item>
     
     <item>

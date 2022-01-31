@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>indices on </title>
+    <link>https://azure-wings.github.io/wiki/index/</link>
+    <description>Recent content in indices on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://azure-wings.github.io/wiki/index/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Books</title>
+      <link>https://azure-wings.github.io/wiki/index/Books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/index/Books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Business administration</title>
+      <link>https://azure-wings.github.io/wiki/index/Business-administration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/index/Business-administration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer science</title>
+      <link>https://azure-wings.github.io/wiki/index/Computer-science/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/index/Computer-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Economics</title>
+      <link>https://azure-wings.github.io/wiki/index/Economics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/index/Economics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mathematics</title>
+      <link>https://azure-wings.github.io/wiki/index/Mathematics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/index/Mathematics/</guid>
+      <description>Mathematics is a study of abstract concepts such as numbers, quantities, spaces, changes, structures, etc.</description>
+    </item>
+    
+    <item>
+      <title>Movies</title>
+      <link>https://azure-wings.github.io/wiki/index/Movies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/index/Movies/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
