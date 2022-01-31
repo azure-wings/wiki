@@ -1,13 +1,15 @@
-name: Jacky Zhao
+name: azurewings
 enableToc: true
 enableLinkPreview: true
 description:
   Here is the page description. This is an example Quartz site that details installation,
   setup, customization, and troubleshooting for Quartz itself.
 page_title:
-  "🪴 Quartz 3"
+  ""
 links:
-  - link_name: Twitter
-    link: https://twitter.com/_jzhao
   - link_name: Github
-    link: https://github.com/jackyzha0
+    link: https://github.com/azure-wings
+  - link_name: LinkedIn
+    link: https://www.linkedin.com/in/leegiyeon
+  - link_name: E-mail
+    link: mailto:azurewings.seoul@gmail.com
