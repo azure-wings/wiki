@@ -1,4 +1,4 @@
-baseURL = "https://azure-wings.github.io/azure-garden"
+baseURL = "https://azure-wings.github.io/wiki"
 languageCode = "en-us"
 googleAnalytics = "G-6EG18QB90D"
 pygmentsUseClasses = true
