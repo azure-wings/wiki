@@ -8,17 +8,16 @@ WIP
 ## Definition
 A nonempty set $V$, associated with a [field](notes/Field.md) $F$, is called a vector space if it satisfies the followings:
 For arbitrary $\mathbf{x}, \mathbf{y}, \mathbf{z}\in V$ and $a,b\in F$ [^-1]
-
-\begin{align*}
+$$
+\begin{aligned}
 &(1) \quad \text{Commutativity:}   \; &&\mathbf{x}+\mathbf{y}=\mathbf{y}+\mathbf{x}\\[1pt]
 &(2) \quad \text{Associativity:}   \; &&\begin{cases}(\mathbf{x}+\mathbf{y})+\mathbf{z}=\mathbf{x}+(\mathbf{y}+\mathbf{z})\\[1pt] a(b\mathbf{x})=(ab)\mathbf{x}\end{cases}\\[1pt]
 &(3) \quad \text{Additive Identity:}   \; &&\exists \;\mathbf{0}\in V\; \text{s.t.:} \quad \mathbf{0}+\mathbf{x}=\mathbf{x}\\[1pt]
 &(4) \quad \text{Additive Inverse:}   \; &&\exists \;\mathbf{-x}\in V\; \text{s.t.:} \quad \mathbf{-x}+\mathbf{x}=\mathbf{0}\\[1pt]
 &(5) \quad \text{Scalar Multiplication Identity:}   \; &&\exists\;1\in F\; \text{s.t.:} \quad 1\mathbf{x}=\mathbf{x}\\[1pt]
 &(6) \quad \text{Distributivity:}   \;&&\begin{cases}\;(a+b)\mathbf{x} = a\mathbf{x} + b\mathbf{x}\\[1pt] \;a(\mathbf{x}+\mathbf{y}) = a\mathbf{x}+a\mathbf{y}\end{cases}\\
-\end{align*}
-
-
+\end{aligned}
+$$
 
 ## Related Concepts
 - [Norm](notes/Norm.md): Defines a distance-like property in vector spaces
