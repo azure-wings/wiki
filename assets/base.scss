@@ -7,7 +7,7 @@
 }
 
 h1, h2, h3, h4, ol, ul, thead {
-  font-family: Inter;
+  font-family: Source Sans Pro;
   color: var(--dark);
   font-weight: revert;
   margin: revert;
@@ -363,7 +363,7 @@ header {
   -webkit-backdrop-filter: blur(4px);
 
   & > div {
-    width: 50%;
+    width: 100%;
     margin-top: 15vh;
     margin-left: auto;
     margin-right: auto;
