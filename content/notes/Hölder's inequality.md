@@ -1,5 +1,6 @@
 ---
 title: "Hölder's Inequality"
+math: true
 ---
 # Hölder's Inequality
 ## Theorem

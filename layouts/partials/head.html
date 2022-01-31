@@ -30,6 +30,7 @@
     const index = {{$.Site.Data.linkIndex.index}}
     const links = {{$.Site.Data.linkIndex.links}}
     </script>
+    {{ if .Params.math }}{{ partial "helpers/katex.html" . }}{{ end }}
 </head>
 {{ template "_internal/google_analytics.html" . }}
 {{ partial "popover.html" .}}

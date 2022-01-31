@@ -1,5 +1,6 @@
 ---
 title: "Cauchy-Schwartz Inequality"
+math: true
 ---
 # Cauchy-Schwartz Inequality
 ## Theorem

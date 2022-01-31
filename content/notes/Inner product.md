@@ -1,5 +1,6 @@
 ---
 title: "Inner product"
+math: true
 ---
 # Inner product
 ## Intuition

@@ -1,5 +1,6 @@
 ---
 title: "Norm"
+math: true
 ---
 # Norm
 ## Intuition
