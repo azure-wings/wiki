@@ -367,7 +367,9 @@ header {
   width: 50vw;
   height: 100%;
   overflow: scroll;
-  display: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
 
