@@ -2,63 +2,63 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>🪴 Quartz 3 on </title>
-    <link>https://azure-wings.github.io/azure-garden/</link>
+    <link>https://azure-wings.github.io/wiki/</link>
     <description>Recent content in 🪴 Quartz 3 on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://azure-wings.github.io/azure-garden/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://azure-wings.github.io/wiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cauchy-Schwartz Inequality</title>
-      <link>https://azure-wings.github.io/azure-garden/notes/Cauchy-Schwartz-inequality/</link>
+      <link>https://azure-wings.github.io/wiki/notes/Cauchy-Schwartz-inequality/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://azure-wings.github.io/azure-garden/notes/Cauchy-Schwartz-inequality/</guid>
+      <guid>https://azure-wings.github.io/wiki/notes/Cauchy-Schwartz-inequality/</guid>
       <description>Theorem For any vectors $\mathbf{x},\mathbf{y} \in \mathbb{R}^n$, $$ |\mathbf{x}^\top\mathbf{y}| \leq |\mathbf{x}|_2|\mathbf{y}|_2.</description>
     </item>
     
     <item>
       <title>Field</title>
-      <link>https://azure-wings.github.io/azure-garden/notes/Field/</link>
+      <link>https://azure-wings.github.io/wiki/notes/Field/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://azure-wings.github.io/azure-garden/notes/Field/</guid>
+      <guid>https://azure-wings.github.io/wiki/notes/Field/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hölder&#39;s Inequality</title>
-      <link>https://azure-wings.github.io/azure-garden/notes/H%C3%B6lders-inequality/</link>
+      <link>https://azure-wings.github.io/wiki/notes/H%C3%B6lders-inequality/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://azure-wings.github.io/azure-garden/notes/H%C3%B6lders-inequality/</guid>
+      <guid>https://azure-wings.github.io/wiki/notes/H%C3%B6lders-inequality/</guid>
       <description>Theorem For any vectors $\mathbf{x},\mathbf{y} \in \mathbb{R}^n$ and for any $p,q \geq 1$ such that $\frac{1}{p} + \frac{1}{q} = 1$, it holds that $$ |\mathbf{x}^\top\mathbf{y}| \leq \sum\limits_{i=1}^n|x_iy_i| \leq |\mathbf{x}|_p|\mathbf{y}|_q.</description>
     </item>
     
     <item>
       <title>Inner product</title>
-      <link>https://azure-wings.github.io/azure-garden/notes/Inner-product/</link>
+      <link>https://azure-wings.github.io/wiki/notes/Inner-product/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://azure-wings.github.io/azure-garden/notes/Inner-product/</guid>
+      <guid>https://azure-wings.github.io/wiki/notes/Inner-product/</guid>
       <description>Intuition WIP
 Definition An inner product on a vector space $V$ over a field is a function $\langle \cdot,\cdot\rangle:V^2 \to F$ that satisfies the followings: For arbitrary $\mathbf{x}, \mathbf{y}, \mathbf{z} \in V$ and $c \in \mathbb{R}$, $$\begin{align*} &amp;amp;(1) \quad \text{Linearity for the first argument:} &amp;amp;&amp;amp;\langle a\mathbf{x}+\mathbf{y},\mathbf{z}\rangle = a\langle \mathbf{x},\mathbf{z}\rangle + \langle \mathbf{y},\mathbf{z}\rangle \\[2pt] &amp;amp;(2) \quad \text{Conjugate symmetry}: &amp;amp;&amp;amp;\langle \mathbf{x},\mathbf{y}\rangle = \overline{\langle \mathbf{y},\mathbf{x}\rangle} \\[2pt] &amp;amp;(3) \quad \text{Positive semidefiniteness:} &amp;amp;&amp;amp;\langle \mathbf{x},\mathbf{x}\rangle \geq 0, \langle\mathbf{x},\mathbf{x}\rangle = 0;\text{if and only if};\mathbf{x}=\mathbf{0}\\ \end{align*}$$</description>
     </item>
     
     <item>
       <title>Norm</title>
-      <link>https://azure-wings.github.io/azure-garden/notes/Norm/</link>
+      <link>https://azure-wings.github.io/wiki/notes/Norm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://azure-wings.github.io/azure-garden/notes/Norm/</guid>
+      <guid>https://azure-wings.github.io/wiki/notes/Norm/</guid>
       <description>Intuition WIP
 Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the followings: For arbitrary $\mathbf{x},\mathbf{y}\in V$ and $c \in \mathbb{R}$, $$\begin{align*} &amp;amp;(1) \quad \text{Subadditivity:} &amp;amp;&amp;amp;|x+y| \leq |x| + |y| \\[2pt] &amp;amp;(2) \quad \text{Absolute homogeneity:} &amp;amp;&amp;amp;c|x| = |c||x| \\[2pt] &amp;amp;(3) \quad \text{Positive semidefiniteness:} &amp;amp;&amp;amp;|x|\geq 0, |\mathbf{x}| = 0 ;\text{if and only if};\mathbf{x}=\mathbf{0} \\ \end{align*}$$</description>
     </item>
     
     <item>
       <title>Vector space</title>
-      <link>https://azure-wings.github.io/azure-garden/notes/Vector-space/</link>
+      <link>https://azure-wings.github.io/wiki/notes/Vector-space/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://azure-wings.github.io/azure-garden/notes/Vector-space/</guid>
+      <guid>https://azure-wings.github.io/wiki/notes/Vector-space/</guid>
       <description>Intuition WIP
 Definition A nonempty set $V$, associated with a field $F$, is called a vector space if it satisfies the followings: For arbitrary $\mathbf{x}, \mathbf{y}, \mathbf{z}\in V$ and $a,b\in F$ 1 $$\begin{align*} &amp;amp;(1) \quad \text{Commutativity:} &amp;amp;&amp;amp;\mathbf{x}+\mathbf{y}=\mathbf{y}+\mathbf{x} \\[2pt] &amp;amp;(2) \quad \text{Associativity:} &amp;amp;&amp;amp;\begin{cases}(\mathbf{x}+\mathbf{y})+\mathbf{z}=\mathbf{x}+(\mathbf{y}+\mathbf{z})\\ a(b\mathbf{x})=(ab)\mathbf{x}\end{cases} \\[2pt] &amp;amp;(3) \quad \text{Additive Identity:} &amp;amp;&amp;amp;\exists ;\mathbf{0}\in V; \text{s.</description>
     </item>
