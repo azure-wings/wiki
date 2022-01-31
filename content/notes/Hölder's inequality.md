@@ -2,7 +2,6 @@
 title: "Hölder's Inequality"
 math: true
 ---
-# Hölder's Inequality
 ## Theorem
 For any vectors $\mathbf{x},\mathbf{y} \in \mathbb{R}^n$ and for any $p,q \geq 1$ such that $\frac{1}{p} + \frac{1}{q} = 1$, it holds that
 $$

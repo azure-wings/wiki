@@ -2,7 +2,6 @@
 title: "Cauchy-Schwartz Inequality"
 math: true
 ---
-# Cauchy-Schwartz Inequality
 ## Theorem
 For any vectors $\mathbf{x},\mathbf{y} \in \mathbb{R}^n$,
 $$

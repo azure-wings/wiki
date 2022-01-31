@@ -2,7 +2,6 @@
 title: "Vector space"
 math: true
 ---
-# Vector space
 ## Intuition
 WIP
 ## Definition

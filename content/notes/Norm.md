@@ -2,7 +2,6 @@
 title: "Norm"
 math: true
 ---
-# Norm
 ## Intuition
 WIP
 ## Definition
