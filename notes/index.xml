@@ -60,7 +60,7 @@ Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the f
       
       <guid>https://azure-wings.github.io/azure-garden/notes/Vector-space/</guid>
       <description>Vector space Intuition WIP
-Definition A nonempty set $V$, associated with a field $F$, is called a vector space if it satisfies the followings: For arbitrary $\mathbf{x}, \mathbf{y}, \mathbf{z}\in V$ and $a,b\in F$ 1 $$ \begin{align*} &amp;amp;(1) \quad \text{Commutativity:} ; &amp;amp;&amp;amp;\mathbf{x}+\mathbf{y}=\mathbf{y}+\mathbf{x}\ &amp;amp;(2) \quad \text{Associativity:} ; &amp;amp;&amp;amp;\begin{cases}(\mathbf{x}+\mathbf{y})+\mathbf{z}=\mathbf{x}+(\mathbf{y}+\mathbf{z})\[1pt] a(b\mathbf{x})=(ab)\mathbf{x}\end{cases}\ &amp;amp;(3) \quad \text{Additive Identity:} ; &amp;amp;&amp;amp;\exists ;\mathbf{0}\in V; \text{s.</description>
+Definition A nonempty set $V$, associated with a field $F$, is called a vector space if it satisfies the followings: For arbitrary $\mathbf{x}, \mathbf{y}, \mathbf{z}\in V$ and $a,b\in F$ 1 $$ \begin{align*} &amp;amp;(1) \quad \text{Commutativity:} &amp;amp;&amp;amp;\mathbf{x}+\mathbf{y}=\mathbf{y}+\mathbf{x}\[1pt] &amp;amp;(2) \quad \text{Associativity:} &amp;amp;&amp;amp;\begin{cases}(\mathbf{x}+\mathbf{y})+\mathbf{z}=\mathbf{x}+(\mathbf{y}+\mathbf{z})\ a(b\mathbf{x})=(ab)\mathbf{x}\end{cases}\[1pt] &amp;amp;(3) \quad \text{Additive Identity:} &amp;amp;&amp;amp;\exists ;\mathbf{0}\in V; \text{s.</description>
     </item>
     
   </channel>
