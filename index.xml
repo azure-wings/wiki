@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>🪴 Quartz 3 on </title>
+    <link>https://azure-wings.github.io/azure-garden/</link>
+    <description>Recent content in 🪴 Quartz 3 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://azure-wings.github.io/azure-garden/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cauchy-Schwartz Inequality</title>
+      <link>https://azure-wings.github.io/azure-garden/notes/Cauchy-Schwartz-inequality/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/azure-garden/notes/Cauchy-Schwartz-inequality/</guid>
+      <description>Cauchy-Schwartz Inequality Theorem For any vectors $\vx,\vy \in \Rb^n$, $$ |\vx^\top\vy| \leq |\vx|_2|\vy|_2.</description>
+    </item>
+    
+    <item>
+      <title>Field</title>
+      <link>https://azure-wings.github.io/azure-garden/notes/Field/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/azure-garden/notes/Field/</guid>
+      <description>Field </description>
+    </item>
+    
+    <item>
+      <title>Hölder&#39;s Inequality</title>
+      <link>https://azure-wings.github.io/azure-garden/notes/H%C3%B6lders-inequality/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/azure-garden/notes/H%C3%B6lders-inequality/</guid>
+      <description>Hölder&amp;rsquo;s Inequality Theorem For any vectors $\vx,\vy \in \Rb^n$ and for any $p,q \geq 1$ such that $\frac{1}{p} + \frac{1}{q} = 1$, it holds that $$ |\vx^\top\vy| \leq \sum\limits_{i=1}^n|x_iy_i| \leq |\vx|_p|\vy|_q.</description>
+    </item>
+    
+    <item>
+      <title>Inner product</title>
+      <link>https://azure-wings.github.io/azure-garden/notes/Inner-product/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/azure-garden/notes/Inner-product/</guid>
+      <description>Inner product Intuition WIP
+Definition An inner product on a vector space $V$ over a field is a function $\langle \cdot,\cdot\rangle:V^2 \to F$ that satisfies the followings: For arbitrary $\mathbf{x}, \mathbf{y}, \mathbf{z} \in V$ and $c \in \mathbb{R}$, $$ \begin{align*} &amp;amp;(1) \quad \text{Linearity for the first argument:}; &amp;amp;&amp;amp;\langle a\mathbf{x}+\mathbf{y},\mathbf{z}\rangle = a\langle \mathbf{x},\mathbf{z}\rangle + \langle \mathbf{y},\mathbf{z}\rangle\[1pt] &amp;amp;(2) \quad \text{Conjugate symmetry}: ; &amp;amp;&amp;amp;\langle \mathbf{x},\mathbf{y}\rangle = \overline{\langle \mathbf{y},\mathbf{x}\rangle}\[4pt] &amp;amp;(3) \quad \text{Positive semidefiniteness:} ; &amp;amp;&amp;amp;\langle \mathbf{x},\mathbf{x}\rangle \geq 0, \langle\mathbf{x},\mathbf{x}\rangle = 0;\text{if and only if};\mathbf{x}=\mathbf{0} \end{align*} $$</description>
+    </item>
+    
+    <item>
+      <title>Norm</title>
+      <link>https://azure-wings.github.io/azure-garden/notes/Norm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/azure-garden/notes/Norm/</guid>
+      <description>Norm Intuition WIP
+Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the followings: For arbitrary $\mathbf{x},\mathbf{y}\in V$ and $c \in \mathbb{R}$, $$ \begin{align*} &amp;amp;(1) \quad \text{Subadditivity:} ; &amp;amp;&amp;amp;|x+y| \leq |x| + |y|\[1pt] &amp;amp;(2) \quad \text{Absolute homogeneity:} ; &amp;amp;&amp;amp;c|x| = |c||x|\[1pt] &amp;amp;(3) \quad \text{Positive semidefiniteness:} ; &amp;amp;&amp;amp;|x|\geq 0, |\mathbf{x}| = 0 ;\text{if and only if};\mathbf{x}=\mathbf{0}\[1pt] \end{align*} $$</description>
+    </item>
+    
+    <item>
+      <title>Vector space</title>
+      <link>https://azure-wings.github.io/azure-garden/notes/Vector-space/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/azure-garden/notes/Vector-space/</guid>
+      <description>Vector space Intuition WIP
+Definition A nonempty set $V$, associated with a [[Field]] $F$, is called a vector space if it satisfies the followings: For arbitrary $\mathbf{x}, \mathbf{y}, \mathbf{z}\in V$ and $a,b\in F$ 1 $$\begin{align*} &amp;amp;(1) \quad \text{Commutativity:} ; &amp;amp;&amp;amp;\mathbf{x}+\mathbf{y}=\mathbf{y}+\mathbf{x}\[1pt] &amp;amp;(2) \quad \text{Associativity:} ; &amp;amp;&amp;amp;\begin{cases}(\mathbf{x}+\mathbf{y})+\mathbf{z}=\mathbf{x}+(\mathbf{y}+\mathbf{z})\[1pt] a(b\mathbf{x})=(ab)\mathbf{x}\end{cases}\[1pt] &amp;amp;(3) \quad \text{Additive Identity:} ; &amp;amp;&amp;amp;\exists ;\mathbf{0}\in V; \text{s.</description>
+    </item>
+    
+  </channel>
+</rss>
