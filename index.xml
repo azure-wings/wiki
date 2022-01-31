@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://azure-wings.github.io/azure-garden/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cauchy-Schwartz Inequality</title>
+      <title>{{Cauchy-Schwartz Inequality}}</title>
       <link>https://azure-wings.github.io/azure-garden/notes/Cauchy-Schwartz-inequality/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -16,7 +16,7 @@
     </item>
     
     <item>
-      <title>Field</title>
+      <title>{{Field}}</title>
       <link>https://azure-wings.github.io/azure-garden/notes/Field/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -25,7 +25,7 @@
     </item>
     
     <item>
-      <title>Hölder&#39;s Inequality</title>
+      <title>{{Hölder&#39;s Inequality}}</title>
       <link>https://azure-wings.github.io/azure-garden/notes/H%C3%B6lders-inequality/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -34,7 +34,7 @@
     </item>
     
     <item>
-      <title>Inner product</title>
+      <title>{{Inner product}}</title>
       <link>https://azure-wings.github.io/azure-garden/notes/Inner-product/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -44,7 +44,7 @@ Definition An inner product on a vector space $V$ over a field is a function $\l
     </item>
     
     <item>
-      <title>Norm</title>
+      <title>{{Norm}}</title>
       <link>https://azure-wings.github.io/azure-garden/notes/Norm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -54,7 +54,7 @@ Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the f
     </item>
     
     <item>
-      <title>Vector space</title>
+      <title>{{Vector space}}</title>
       <link>https://azure-wings.github.io/azure-garden/notes/Vector-space/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
