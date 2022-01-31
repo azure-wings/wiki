@@ -1,11 +1,10 @@
 ---
 title: azure-wiki
-toc: false
+enableToc: false
 ---
 
----
 > Wiki made by azurewings
-## Indices
+## Index
 
 ### 📚 Academic
 - [Mathematics](index/Mathematics.md)

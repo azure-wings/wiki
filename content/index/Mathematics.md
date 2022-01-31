@@ -4,7 +4,6 @@ title: "Mathematics"
 
 Mathematics is a study of abstract concepts such as numbers, quantities, spaces, changes, structures, etc., based on strict logic.
 
-## Index
 ### Algebra
 - [Linear algebra](notes/Linear%20algebra.md)
 - Abstract algebra
