@@ -1,6 +1,6 @@
 ---
 title: azure-wiki
-enableToc: false
+toc: false
 ---
 
 > Wiki made by azurewings
