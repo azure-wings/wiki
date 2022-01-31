@@ -1,5 +1,6 @@
 ---
-title: wiki
+title: azure-wiki
+toc: false
 ---
 
 > Wiki made by azurewings
