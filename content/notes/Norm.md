@@ -1,5 +1,5 @@
 ---
-title: "{{Norm}}"
+title: "Norm"
 ---
 # Norm
 ## Intuition

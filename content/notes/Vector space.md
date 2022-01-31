@@ -1,11 +1,11 @@
 ---
-title: "{{Vector space}}"
+title: "Vector space"
 ---
 # Vector space
 ## Intuition
 WIP
 ## Definition
-A nonempty set $V$, associated with a [[Field]] $F$, is called a vector space if it satisfies the followings:
+A nonempty set $V$, associated with a [field](notes/Field.md) $F$, is called a vector space if it satisfies the followings:
 For arbitrary $\mathbf{x}, \mathbf{y}, \mathbf{z}\in V$ and $a,b\in F$ [^-1]
 $$\begin{align*}
 &(1) \quad \text{Commutativity:}   \; &&\mathbf{x}+\mathbf{y}=\mathbf{y}+\mathbf{x}\\[1pt]
@@ -19,7 +19,7 @@ $$
 
 
 ## Related Concepts
-- [[Norm]]: Defines a distance-like property in vector spaces
-- [[Inner product]]: Allows the concept of 'direction' to be considered in cevtor spcaes
+- [Norm](notes/Norm.md): Defines a distance-like property in vector spaces
+- [Inner product](notes/Inner%20product.md): Allows the concept of 'direction' to be considered in cevtor spcaes
 
 [^-1]: Actually, in $(2)$ associativity, the scalar one is not a property of associativity because $b\mathbf{x}$ is a scalar-vector multiplication while $ab$ is a scalar-scalar multiplication. It should be called the 'compatibility for scalar multiplication to field multiplication' instead. 

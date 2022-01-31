@@ -1,12 +1,12 @@
 ---
-title: "{{Cauchy-Schwartz Inequality}}"
+title: "Cauchy-Schwartz Inequality"
 ---
 # Cauchy-Schwartz Inequality
 ## Theorem
-For any vectors $\vx,\vy \in \Rb^n$,
+For any vectors $\mathbf{x},\mathbf{y} \in \mathbb{R}^n$,
 $$
-|\vx^\top\vy| \leq \|\vx\|_2\|\vy\|_2.
+|\mathbf{x}^\top\mathbf{y}| \leq \|\mathbf{x}\|_2\|\mathbf{y}\|_2.
 $$
 
 ## Generalization
-See [[Hölder's inequality]].
+See [Hölder's inequality](notes/Hölder's%20inequality).

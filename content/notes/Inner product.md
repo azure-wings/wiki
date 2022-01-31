@@ -1,11 +1,11 @@
 ---
-title: "{{Inner product}}"
+title: "Inner product"
 ---
 # Inner product
 ## Intuition
 WIP
 ## Definition
-An inner product on a [vector space](Vector%20space.md) $V$ over a [field](Field.md) is a function $\langle \cdot,\cdot\rangle:V^2 \to F$ that satisfies the followings:
+An inner product on a [vector space](notes/Vector%20space.md) $V$ over a [field](notes/Field.md) is a function $\langle \cdot,\cdot\rangle:V^2 \to F$ that satisfies the followings:
 For arbitrary $\mathbf{x}, \mathbf{y}, \mathbf{z} \in V$ and $c \in \mathbb{R}$,
 $$
 \begin{align*}
@@ -21,7 +21,7 @@ A standard inner space in $\mathbb{R}^n$ is defined for $\mathbf{x} = (x_1, \cdo
 $$
 \langle\mathbf{x},\mathbf{y}\rangle = \mathbf{x}^\top\mathbf{y} = \sum\limits_{i=1}^n x_iy_i.
 $$
-Note that for the Euclidean [norm](Norm.md),
+Note that for the Euclidean [norm](notes/Norm.md),
 $$
 \|\mathbf{x}\|_2 = \sqrt{\langle\mathbf{x},\mathbf{x}\rangle}.
 $$
