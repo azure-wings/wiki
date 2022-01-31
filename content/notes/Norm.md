@@ -1,5 +1,5 @@
 ---
-title: "Norm"
+title: "{{Norm}}"
 ---
 # Norm
 ## Intuition
@@ -46,6 +46,6 @@ $$
 $$
 is called the unit $L^p$-norm ball.
 The following figure shows the shapes of the $\mathcal{B}_p$ balls in $\mathbb{R}^2$ for $p\in \{1/2, 1, 1.1, 4/3, 2, \infty\}$.
-![various-unit-balls](various-unit-balls.png)
+![various-unit-balls](./images/various-unit-balls.png)
 
 [^-1]: This is a slight abuse in the term as $L^0$-"norm" does not satisfy the second property(absolute homogeneity). This is justified as $$\text{card}(\mathbf{x}) = \lim\limits_{p \to 0}\left( \sum\limits_{i=1}^n |x_i|^p\right)^{1/p}.$$

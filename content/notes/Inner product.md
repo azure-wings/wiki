@@ -1,5 +1,5 @@
 ---
-title: "Inner product"
+title: "{{Inner product}}"
 ---
 # Inner product
 ## Intuition
@@ -27,21 +27,21 @@ $$
 $$
 
 ## Angle between vectors
-The standard inner product on $\mathbb{R}^n$ is related to the angle between two vectors $\vx, \vy$. Let $\theta$ be the angle between the two vectors and let $\vz=\vx-\vy$.
+The standard inner product on $\mathbb{R}^n$ is related to the angle between two vectors $\mathbf{x}, \mathbf{y}$. Let $\theta$ be the angle between the two vectors and let $\mathbf{z}=\mathbf{x}-\mathbf{y}$.
 Then, applying the second law of cosine gives
 $$
-\|\vz\|_2^2 = \|\vx\|_2^2 + \|\vy\|_2^2 -2\|\vx\|_2\|\vy\|_2\cos\theta.
+\|\mathbf{z}\|_2^2 = \|\mathbf{x}\|_2^2 + \|\mathbf{y}\|_2^2 -2\|\mathbf{x}\|_2\|\mathbf{y}\|_2\cos\theta.
 $$
-Now substitute $\vz=\vx-\vy$.
+Now substitute $\mathbf{z}=\mathbf{x}-\mathbf{y}$.
 $$
 \begin{align*}
-\|\vx-\vy\|_2^2 &= (\vx-\vy)^\top(\vx-\vy)\\[1pt]
-&= \vx^\top \vx + \vy^\top\vy -2\vx^\top\vy\\[1pt]
-&= \|\vx\|_2^2 + \|\vy\|_2^2 -2\vx^\top\vy\\[1pt]
-&= \|\vx\|_2^2 + \|\vy\|_2^2 -2\|\vx\|_2\|\vy\|_2\cos\theta
+\|\mathbf{x}-\mathbf{y}\|_2^2 &= (\mathbf{x}-\mathbf{y})^\top(\mathbf{x}-\mathbf{y})\\[1pt]
+&= \mathbf{x}^\top \mathbf{x} + \mathbf{y}^\top\mathbf{y} -2\mathbf{x}^\top\mathbf{y}\\[1pt]
+&= \|\mathbf{x}\|_2^2 + \|\mathbf{y}\|_2^2 -2\mathbf{x}^\top\mathbf{y}\\[1pt]
+&= \|\mathbf{x}\|_2^2 + \|\mathbf{y}\|_2^2 -2\|\mathbf{x}\|_2\|\mathbf{y}\|_2\cos\theta
 \end{align*}
 $$
 Hence,
 $$
-\cos\theta = \dfrac{\vx^\top\vy}{\|\vx\|_2\|\vy\|_2}.
+\cos\theta = \dfrac{\mathbf{x}^\top\mathbf{y}}{\|\mathbf{x}\|_2\|\mathbf{y}\|_2}.
 $$

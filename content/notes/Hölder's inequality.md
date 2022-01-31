@@ -1,5 +1,5 @@
 ---
-title: "Hölder's Inequality"
+title: "{{Hölder's Inequality}}"
 ---
 # Hölder's Inequality
 ## Theorem

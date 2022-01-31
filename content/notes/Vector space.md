@@ -1,5 +1,5 @@
 ---
-title: "Vector space"
+title: "{{Vector space}}"
 ---
 # Vector space
 ## Intuition
@@ -22,4 +22,4 @@ $$
 - [[Norm]]: Defines a distance-like property in vector spaces
 - [[Inner product]]: Allows the concept of 'direction' to be considered in cevtor spcaes
 
-[^-1]: Actually, in $(2)$ associativity, the scalar one is not a property of associativity because $b\mathbf{x}$ is a scalar-vector multiplication while $ab$ is a scalar-scalar multiplication. It should be called as the 'compatibility for scalar multiplication to field multiplicaiton' instead. 
+[^-1]: Actually, in $(2)$ associativity, the scalar one is not a property of associativity because $b\mathbf{x}$ is a scalar-vector multiplication while $ab$ is a scalar-scalar multiplication. It should be called the 'compatibility for scalar multiplication to field multiplication' instead. 

@@ -1,5 +1,5 @@
 ---
-title: "Cauchy-Schwartz Inequality"
+title: "{{Cauchy-Schwartz Inequality}}"
 ---
 # Cauchy-Schwartz Inequality
 ## Theorem
