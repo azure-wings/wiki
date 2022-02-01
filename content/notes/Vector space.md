@@ -2,9 +2,8 @@
 title: "Vector space"
 math: true
 ---
-## Intuition
-WIP
-## Definition
+
+### Definition
 
 A vector space $V$ over a [field](notes/Field.md) $F$ consists of a set on which two operations $+$ (_addition_) and $\cdot$ (_scalar multiplication_) are defined so that the followings hold.
 
@@ -30,7 +29,7 @@ For any $\mathbf{x}, \mathbf{y}, \mathbf{z} \in V$ and $c, d \in F$:
 > **(M5)** $\forall \mathbf{x} \in V: 1\mathbf{x} = \mathbf{x}$
 
 
-## Related Concepts
+### Related Concepts
 - [Norm](notes/Norm.md): Defines a distance-like property in vector spaces
 - [Inner product](notes/Inner%20product.md): Allows the concept of 'direction' to be considered in cevtor spcaes
  

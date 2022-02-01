@@ -5,7 +5,7 @@ math: true
 ## Intuition
 WIP
 
-## Definition
+### Definition
 A function $\|\cdot\|: V\to \mathbb{R}$ is a norm if it satisfies the followings:
 
 For arbitrary $\mathbf{x},\mathbf{y}\in V$ and $c \in \mathbb{R}$,
@@ -16,8 +16,8 @@ For arbitrary $\mathbf{x},\mathbf{y}\in V$ and $c \in \mathbb{R}$,
 >
 > **(3) Positive semidefiniteness:**    $\|\mathbf{x}\|\geq 0; \|\mathbf{x}\| = 0$ if and only if $\mathbf{x}=\mathbf{0}$
 
-## $L^p$-Norms
-### Definition
+### $L^p$-Norms
+#### Definition
 For $\mathbf{x} = (x_1, \cdots, x_n) \in \mathbb{R}^n$, an $L^p$-norm when $1\leq p < \infty$ is defined as:
 
 $$\|\mathbf{x}\|_p := \left( \sum\limits_{i=1}^n |x_i|^p\right)^{1/p}$$
@@ -39,7 +39,7 @@ $$\mathbb{I}(x_i \neq 0) :=
 
 The $L^2$-norm is also called the Euclidean norm.
 
-## Unit Balls
+### Unit Balls
 The set of all vectors with $L^p$-norm less than or equal to $1$,
 $$\mathcal{B}_p = \{\mathbf{x} \in \mathbb{R}^n:\|\mathbf{x}\|_p \leq 1 \}$$
 is called the unit $L^p$-norm ball.

@@ -2,9 +2,8 @@
 title: "Inner product"
 math: true
 ---
-## Intuition
-WIP
-## Definition
+
+### Definition
 An inner product on a [vector space](notes/Vector%20space.md) $V$ over a [field](notes/Field.md) is a function $\langle \cdot,\cdot\rangle:V^2 \to F$ that satisfies the followings:
 
 For arbitrary $\mathbf{x}, \mathbf{y}, \mathbf{z} \in V$ and $c \in \mathbb{R}$,
@@ -14,8 +13,8 @@ For arbitrary $\mathbf{x}, \mathbf{y}, \mathbf{z} \in V$ and $c \in \mathbb{R}$,
 >
 > **(3) Positive semidefiniteness:**  $\langle \mathbf{x},\mathbf{x}\rangle \geq 0$; $\langle\mathbf{x},\mathbf{x}\rangle = 0$ if and only if $\mathbf{x}=\mathbf{0}$
 
-## Standard inner product
-### Definition
+### Standard inner product
+#### Definition
 A standard inner space in $\mathbb{R}^n$ is defined for $\mathbf{x} = (x_1, \cdots, x_n)$ and $\mathbf{y} = (y_1, \cdots, y_n)$ as
 $$
 \langle\mathbf{x},\mathbf{y}\rangle = \mathbf{x}^\top\mathbf{y} = \sum\limits_{i=1}^n x_iy_i.
@@ -25,7 +24,7 @@ $$
 \|\mathbf{x}\|_2 = \sqrt{\langle\mathbf{x},\mathbf{x}\rangle}.
 $$
 
-## Angle between vectors
+### Angle between vectors
 The standard inner product on $\mathbb{R}^n$ is related to the angle between two vectors $\mathbf{x}, \mathbf{y}$. Let $\theta$ be the angle between the two vectors and let $\mathbf{z}=\mathbf{x}-\mathbf{y}$.
 Then, applying the second law of cosine gives
 $$
