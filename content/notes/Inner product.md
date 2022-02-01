@@ -3,7 +3,7 @@ title: "Inner product"
 math: true
 ---
 
-### Definition
+## Definition
 An inner product on a [vector space](notes/Vector%20space.md) $V$ over a [field](notes/Field.md) is a function $\langle \cdot,\cdot\rangle:V^2 \to F$ that satisfies the followings:
 
 For arbitrary $\mathbf{x}, \mathbf{y}, \mathbf{z} \in V$ and $c \in \mathbb{R}$,
@@ -13,6 +13,7 @@ For arbitrary $\mathbf{x}, \mathbf{y}, \mathbf{z} \in V$ and $c \in \mathbb{R}$,
 >
 > **(3) Positive semidefiniteness:**  $\langle \mathbf{x},\mathbf{x}\rangle \geq 0$; $\langle\mathbf{x},\mathbf{x}\rangle = 0$ if and only if $\mathbf{x}=\mathbf{0}$
 
+## Examples
 ### Standard inner product
 #### Definition
 A standard inner space in $\mathbb{R}^n$ is defined for $\mathbf{x} = (x_1, \cdots, x_n)$ and $\mathbf{y} = (y_1, \cdots, y_n)$ as
