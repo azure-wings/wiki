@@ -6,12 +6,13 @@ math: true
 WIP
 ## Definition
 An inner product on a [vector space](notes/Vector%20space.md) $V$ over a [field](notes/Field.md) is a function $\langle \cdot,\cdot\rangle:V^2 \to F$ that satisfies the followings:
+
 For arbitrary $\mathbf{x}, \mathbf{y}, \mathbf{z} \in V$ and $c \in \mathbb{R}$,
-$$\begin{align*}
-&(1) \quad \text{Linearity for the first argument:} &&\langle a\mathbf{x}+\mathbf{y},\mathbf{z}\rangle = a\langle \mathbf{x},\mathbf{z}\rangle + \langle \mathbf{y},\mathbf{z}\rangle \\\\[2pt]
-&(2) \quad \text{Conjugate symmetry}: &&\langle \mathbf{x},\mathbf{y}\rangle = \overline{\langle \mathbf{y},\mathbf{x}\rangle} \\\\[2pt]
-&(3) \quad \text{Positive semidefiniteness:}  &&\langle \mathbf{x},\mathbf{x}\rangle \geq 0, \langle\mathbf{x},\mathbf{x}\rangle = 0\;\text{if and only if}\;\mathbf{x}=\mathbf{0}\\\\
-\end{align*}$$
+> **(1) Linearity for the first argument:** $\langle a\mathbf{x}+\mathbf{y},\mathbf{z}\rangle = a\langle \mathbf{x},\mathbf{z}\rangle + \langle \mathbf{y},\mathbf{z}\rangle$
+>
+> **(2) Conjugate symmetry:** $\langle \mathbf{x},\mathbf{y}\rangle = \overline{\langle \mathbf{y},\mathbf{x}\rangle}$
+>
+> **(3) Positive semidefiniteness:**  $\langle \mathbf{x},\mathbf{x}\rangle \geq 0$; $\langle\mathbf{x},\mathbf{x}\rangle = 0$ if and only if $\mathbf{x}=\mathbf{0}$
 
 ## Standard inner product
 ### Definition
