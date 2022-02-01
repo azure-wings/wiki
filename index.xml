@@ -76,7 +76,7 @@
       
       <guid>https://azure-wings.github.io/wiki/notes/Inner-product/</guid>
       <description>Intuition WIP
-Definition An inner product on a vector space $V$ over a field is a function $\langle \cdot,\cdot\rangle:V^2 \to F$ that satisfies the followings: For arbitrary $\mathbf{x}, \mathbf{y}, \mathbf{z} \in V$ and $c \in \mathbb{R}$, $$\begin{align*} &amp;amp;(1) \quad \text{Linearity for the first argument:} &amp;amp;&amp;amp;\langle a\mathbf{x}+\mathbf{y},\mathbf{z}\rangle = a\langle \mathbf{x},\mathbf{z}\rangle + \langle \mathbf{y},\mathbf{z}\rangle \\[2pt] &amp;amp;(2) \quad \text{Conjugate symmetry}: &amp;amp;&amp;amp;\langle \mathbf{x},\mathbf{y}\rangle = \overline{\langle \mathbf{y},\mathbf{x}\rangle} \\[2pt] &amp;amp;(3) \quad \text{Positive semidefiniteness:} &amp;amp;&amp;amp;\langle \mathbf{x},\mathbf{x}\rangle \geq 0, \langle\mathbf{x},\mathbf{x}\rangle = 0;\text{if and only if};\mathbf{x}=\mathbf{0}\\ \end{align*}$$</description>
+Definition An inner product on a vector space $V$ over a field is a function $\langle \cdot,\cdot\rangle:V^2 \to F$ that satisfies the followings:</description>
     </item>
     
     <item>
@@ -123,7 +123,7 @@ Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the f
       
       <guid>https://azure-wings.github.io/wiki/notes/Vector-space/</guid>
       <description>Intuition WIP
-Definition A nonempty set $V$, associated with a field $F$, is called a vector space if it satisfies the followings: For arbitrary $\mathbf{x}, \mathbf{y}, \mathbf{z}\in V$ and $a,b\in F$ 1 $$\begin{align*} &amp;amp;(1) \quad \text{Commutativity:} &amp;amp;&amp;amp;\mathbf{x}+\mathbf{y}=\mathbf{y}+\mathbf{x} \\[2pt] &amp;amp;(2) \quad \text{Associativity:} &amp;amp;&amp;amp;\begin{cases}(\mathbf{x}+\mathbf{y})+\mathbf{z}=\mathbf{x}+(\mathbf{y}+\mathbf{z})\\ a(b\mathbf{x})=(ab)\mathbf{x}\end{cases} \\[2pt] &amp;amp;(3) \quad \text{Additive Identity:} &amp;amp;&amp;amp;\exists ;\mathbf{0}\in V; \text{s.</description>
+Definition A vector space $V$ over a field $F$ consists of a set on which two operations $+$ (addition) and $\cdot$ (scalar multiplication) are defined so that the followings hold.</description>
     </item>
     
   </channel>
