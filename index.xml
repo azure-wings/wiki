@@ -84,8 +84,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://azure-wings.github.io/wiki/notes/Inner-product/</guid>
-      <description>Intuition WIP
-Definition An inner product on a vector space $V$ over a field is a function $\langle \cdot,\cdot\rangle:V^2 \to F$ that satisfies the followings:</description>
+      <description>Definition An inner product on a vector space $V$ over a field is a function $\langle \cdot,\cdot\rangle:V^2 \to F$ that satisfies the followings:</description>
     </item>
     
     <item>
@@ -126,13 +125,21 @@ Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the f
     </item>
     
     <item>
+      <title>Subspace</title>
+      <link>https://azure-wings.github.io/wiki/notes/Subspace/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Subspace/</guid>
+      <description>Definition </description>
+    </item>
+    
+    <item>
       <title>Vector space</title>
       <link>https://azure-wings.github.io/wiki/notes/Vector-space/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://azure-wings.github.io/wiki/notes/Vector-space/</guid>
-      <description>Intuition WIP
-Definition A vector space $V$ over a field $F$ consists of a set on which two operations $+$ (addition) and $\cdot$ (scalar multiplication) are defined so that the followings hold.</description>
+      <description>Definition A vector space $V$ over a field $F$ consists of a set on which two operations $+$ (addition) and $\cdot$ (scalar multiplication) are defined so that the followings hold.</description>
     </item>
     
   </channel>
