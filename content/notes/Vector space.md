@@ -15,9 +15,9 @@ For any $\mathbf{x}, \mathbf{y}, \mathbf{z} \in V$ and $c, d \in F$:
 >
 > **(A3)** $(\mathbf{x} + \mathbf{y}) + \mathbf{z} = \mathbf{x} + (\mathbf{y} + \mathbf{z})$ (Associativity of addition)
 >
-> **(A4)** $\forall \mathbf{x} \in V: \exist \mathbf{0} \in V$ such that $\mathbf{x} + \mathbf{0} = \mathbf{x}$ (Existence of additive identity)
+> **(A4)** $\forall \mathbf{x} \in V: \exists \mathbf{0} \in V$ such that $\mathbf{x} + \mathbf{0} = \mathbf{x}$ (Existence of additive identity)
 >
-> **(A5)** $\forall \mathbf{x} \in V: \exist (-\mathbf{x}) \in V$ such that $\mathbf{x} + (-\mathbf{x}) = \mathbf{0}$ (Existence of additive inverse)
+> **(A5)** $\forall \mathbf{x} \in V: \exists (-\mathbf{x}) \in V$ such that $\mathbf{x} + (-\mathbf{x}) = \mathbf{0}$ (Existence of additive inverse)
 >
 > **(M1)** $\mathbf{x} \in V \Rightarrow c\mathbf{x} \in V$
 >
