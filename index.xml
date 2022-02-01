@@ -113,7 +113,7 @@ Definition An inner product on a vector space $V$ over a field is a function $\l
       
       <guid>https://azure-wings.github.io/wiki/notes/Norm/</guid>
       <description>Intuition WIP
-Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the followings: For arbitrary $\mathbf{x},\mathbf{y}\in V$ and $c \in \mathbb{R}$, $$\begin{align*} &amp;amp;(1) \quad \text{Subadditivity:} &amp;amp;&amp;amp;|x+y| \leq |x| + |y| \\[2pt] &amp;amp;(2) \quad \text{Absolute homogeneity:} &amp;amp;&amp;amp;c|x| = |c||x| \\[2pt] &amp;amp;(3) \quad \text{Positive semidefiniteness:} &amp;amp;&amp;amp;|x|\geq 0, |\mathbf{x}| = 0 ;\text{if and only if};\mathbf{x}=\mathbf{0} \\ \end{align*}$$</description>
+Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the followings:</description>
     </item>
     
     <item>
