@@ -3,7 +3,7 @@ title: "Field"
 math: true
 ---
 
-### Definition
+## Definition
 A field $F$ is a set on which two operations $+$ (_addition_) and $\cdot$ (_multiplication_) are defined so that the followings hold.
 
 For any $x, y, z \in F$,
@@ -26,6 +26,6 @@ For any $x, y, z \in F$,
 > **(D)** $x(y + z) = xy + xz$ 　(Distributivity of multiplication over addition)
 
 
-### Examples
+## Examples
 - The set of rational numbers $(\mathbb{Q})$, real numbers $(\mathbb{R})$, and complex numbers $(\mathbb{C})$ are fields.
 - The set $B = \{0, 1\}$ with boolean addition / multiplication is a field.
