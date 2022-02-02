@@ -31,8 +31,8 @@ For any $\mathbf{x}, \mathbf{y}, \mathbf{z} \in V$ and $c, d \in F$:
 ## Examples
 ### The space of $m \times n$ matrices
 Let $F$ be any field and $m, n \in \mathbb{N}$. Define $F^{m\times n}$ as the set of all $m\times n$ matrices over the field $F$. Then, for any matrices $A, B \in F^{m \times n}$ and scalar $c \in F$,
-- $(A + B)_{ij} = A_{ij} + B_{ij}$
-- $(cA)_{ij} = cA_{ij}$
+- $(A + B)\_{ij} = A\_{ij} + B\_{ij}$
+- $(cA)\_{ij} = cA\_{ij}$
 
 ### The space of functions from a set to a field
 Let $F$ be any field, and $S$ be any nonempty set. Define $V$ as the set of all functions $S \to F$. Then, for any functions $f, g \in V$ and scalar $c \in F$, $\forall s \in S$:
