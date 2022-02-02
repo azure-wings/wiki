@@ -7,11 +7,11 @@ math: true
 An inner product on a [vector space](notes/Vector%20space.md) $V$ over a [field](notes/Field.md) is a function $\langle \cdot,\cdot\rangle:V^2 \to F$ that satisfies the followings:
 
 For arbitrary $\mathbf{x}, \mathbf{y}, \mathbf{z} \in V$ and $c \in \mathbb{R}$,
-> **(1) Linearity for the first argument:** $\langle a\mathbf{x}+\mathbf{y},\mathbf{z}\rangle = a\langle \mathbf{x},\mathbf{z}\rangle + \langle \mathbf{y},\mathbf{z}\rangle$
+> **(1)** $\langle a\mathbf{x}+\mathbf{y},\mathbf{z}\rangle = a\langle \mathbf{x},\mathbf{z}\rangle + \langle \mathbf{y},\mathbf{z}\rangle$ 　(Linearity for the first argument)
 >
-> **(2) Conjugate symmetry:** $\langle \mathbf{x},\mathbf{y}\rangle = \overline{\langle \mathbf{y},\mathbf{x}\rangle}$
+> **(2)** $\langle \mathbf{x},\mathbf{y}\rangle = \overline{\langle \mathbf{y},\mathbf{x}\rangle}$ 　(Conjugate symmetry)
 >
-> **(3) Positive semidefiniteness:**  $\langle \mathbf{x},\mathbf{x}\rangle \geq 0$; $\langle\mathbf{x},\mathbf{x}\rangle = 0$ if and only if $\mathbf{x}=\mathbf{0}$
+> **(3)**  $\langle \mathbf{x},\mathbf{x}\rangle \geq 0;$ $\langle\mathbf{x},\mathbf{x}\rangle = 0$ if and only if $\mathbf{x}=\mathbf{0}$ 　(Positive semidefiniteness)
 
 ## Examples
 ### Standard inner product

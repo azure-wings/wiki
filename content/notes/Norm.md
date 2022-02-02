@@ -10,11 +10,11 @@ A function $\|\cdot\|: V\to \mathbb{R}$ is a norm if it satisfies the followings
 
 For arbitrary $\mathbf{x},\mathbf{y}\in V$ and $c \in \mathbb{R}$,
 
-> **(1) Subadditivity:**    $\|\mathbf{x}+\mathbf{y}\| \leq \|\mathbf{x}\| + \|\mathbf{y}\|$
+> **(1)**    $\|\mathbf{x}+\mathbf{y}\| \leq \|\mathbf{x}\| + \|\mathbf{y}\|$ 　(Subadditivity)
 >
-> **(2) Absolute homogeneity:**    $c\|\mathbf{x}\| = |c|\|\mathbf{x}\|$
+> **(2)**    $c\|\mathbf{x}\| = |c|\|\mathbf{x}\|$ 　(Absolute homogeneity)
 >
-> **(3) Positive semidefiniteness:**    $\|\mathbf{x}\|\geq 0; \|\mathbf{x}\| = 0$ if and only if $\mathbf{x}=\mathbf{0}$
+> **(3)**    $\|\mathbf{x}\|\geq 0;$ $\|\mathbf{x}\| = 0$ if and only if $\mathbf{x}=\mathbf{0}$ 　(Positive semidefiniteness)
 
 ## $L^p$-Norms
 ### Definition

@@ -7,23 +7,23 @@ math: true
 A field $F$ is a set on which two operations $+$ (_addition_) and $\cdot$ (_multiplication_) are defined so that the followings hold.
 
 For any $x, y, z \in F$,
-> **(A1) Commutativity of addition:** $x + y = y + x$
+> **(A1)** $x + y = y + x$  　(Commutativity of addition)
 > 
-> **(A2) Associativity of addition:** $(x + y) + z = x + (y + z)$
+> **(A2)** $(x + y) + z = x + (y + z)$ 　(Associativity of addition)
 >
-> **(A3) Existence of additive identity:** $\forall x \in F: \exists 0 \in F$ such that $x + 0 = x$
+> **(A3)** $\exists ! 0 \in F$ such that  $\forall x \in F: x + 0 = x$ 　(Existence of additive identity)
 > 
-> **(A4) Existence of additive inverse:** $\forall x \in F: \exists (-x) \in F$ such that $x + (-x) = 0$
+> **(A4)** $\forall x \in F: \exists ! (-x) \in F$ such that $x + (-x) = 0$ 　(Existence of additive inverse)
 > 
-> **(M1) Commutativity of multiplication:** $xy = yx$
+> **(M1)** $xy = yx$ 　(Commutativity of multiplication)
 > 
-> **(M2) Associativity of multiplication:** $(xy)z = x(yz)$
+> **(M2)** $(xy)z = x(yz)$ 　(Associativity of multiplication)
 >
-> **(M3) Existence of multiplicative identity:** $\forall x \in F: \exists 1 \in F$ such that $1x = x$
+> **(M3)** $\exists ! 1 \in F$ such that $\forall x \in F: 1x = x$ 　(Existence of multiplicative identity)
 > 
-> **(M4) Existence of multiplicative inverse:**  $\forall x \in F: \exists x^{-1} \in F$ such that $xx^{-1} = 1$
+> **(M4)**  $\forall x \in F \setminus \{0\}: \exists ! x^{-1} \in F$ such that $xx^{-1} = 1$ 　(Existence of multiplicative inverse)
 > 
-> **(D) Distributivity of multiplication over addition:** $x(y + z) = xy + xz$
+> **(D)** $x(y + z) = xy + xz$ 　(Distributivity of multiplication over addition)
 
 
 ### Examples
