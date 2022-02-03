@@ -9,7 +9,8 @@ toc: true
 
 ## Theorems
 ### Theorem 1
-> A non-empty subset $W$ of $V$ is a subspace of $V$ _if and only if_ $\forall \mathbf{x}, \mathbf{y} \in W, \forall c \in F:$ $c\mathbf{x} + \mathbf{y} \in W$.[^1]
+[^1]
+> A non-empty subset $W$ of $V$ is a subspace of $V$ _if and only if_ $\forall \mathbf{x}, \mathbf{y} \in W, \forall c \in F:$ $c\mathbf{x} + \mathbf{y} \in W$.
 
 #### Proof
 $(\Rightarrow)$ Trivial.
@@ -22,10 +23,10 @@ Finally, $\forall \mathbf{v}, \mathbf{w} \in W:$ $\mathbf{v} + \mathbf{w} = 1\ma
 Therefore, $W$ is a subspace of $V$.
 $$\tag*{$||$}$$
 ### Theorem 2
-> The intersection of any collection of subspaces of a vector space $V$ is a subspace of $V$.
 [^1]
+> The intersection of any collection of subspaces of a vector space $V$ is a subspace of $V$.
 #### Proof
-Let $\\{W\_a\\}$ be the collection of subspaces of $V$, and let $W = \cap\_{a}W\_a$. Since $\mathbf{0} \in W\_a$ for all $W\_a$, $\mathbf{0} \in W$ and thus $W$ is nonempty.
+Let $\left\{ W\_a \right\}$ be the collection of subspaces of $V$, and let $W = \cap\_{a}W\_a$. Since $\mathbf{0} \in W\_a$ for all $W\_a$, $\mathbf{0} \in W$ and thus $W$ is nonempty.
 
 Let $\mathbf{x}, \mathbf{y} \in W$ and $c$ be an arbitrary scalar. By definition of $W$, $\mathbf{x},\mathbf{y} \in W\_a$ for all $W\_a$ and since they are all subspaces of $V$, $c\mathbf{x} + \mathbf{y} \in W\_a$ for all $W\_a$. Thus $c\mathbf{x} + \mathbf{y} \in W$. 
 $$\tag*{$||$}$$ 
