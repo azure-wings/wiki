@@ -17,7 +17,7 @@ Linear algebra is the branch of mathematics concerning linear equations, linear 
 ## Linear Transformation
 - [Linear transformation](notes/Linear%20transformation)
 - [Isomorphism](notes/Isomorphism)
-- [Fundamental theorem of linear algebra](notes/Fundamental theorem of linear algebra)
+- [Fundamental theorem of linear algebra](notes/Fundamental%20theorem%20of%20linear%20algebra)
 
 ## Determinant
 - [Multilinear form](notes/Multilinear%20form)
