@@ -7,6 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://azure-wings.github.io/wiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title></title>
+      <link>https://azure-wings.github.io/wiki/notes/Fundamental-theorem-of-linear-algebra/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Fundamental-theorem-of-linear-algebra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alternating multilinear form</title>
+      <link>https://azure-wings.github.io/wiki/notes/Alternating-multilinear-form/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Alternating-multilinear-form/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Basis</title>
+      <link>https://azure-wings.github.io/wiki/notes/Basis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Basis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Books</title>
       <link>https://azure-wings.github.io/wiki/index/Books/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -52,6 +79,42 @@
     </item>
     
     <item>
+      <title>Coordinates</title>
+      <link>https://azure-wings.github.io/wiki/notes/Coordinates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Coordinates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cramer&#39;s rule</title>
+      <link>https://azure-wings.github.io/wiki/notes/Cramers-rule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Cramers-rule/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Determinant</title>
+      <link>https://azure-wings.github.io/wiki/notes/Determinant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Determinant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dimension</title>
+      <link>https://azure-wings.github.io/wiki/notes/Dimension/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Dimension/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Economics</title>
       <link>https://azure-wings.github.io/wiki/index/Economics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -88,12 +151,30 @@
     </item>
     
     <item>
+      <title>Isomorphism</title>
+      <link>https://azure-wings.github.io/wiki/notes/Isomorphism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Isomorphism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Linear algebra</title>
       <link>https://azure-wings.github.io/wiki/notes/Linear-algebra/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://azure-wings.github.io/wiki/notes/Linear-algebra/</guid>
       <description>Linear algebra is the branch of mathematics concerning linear equations, linear transformations (maps), and their representations in vector spaces and through matrices.</description>
+    </item>
+    
+    <item>
+      <title>Linear transformation</title>
+      <link>https://azure-wings.github.io/wiki/notes/Linear-transformation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Linear-transformation/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -115,6 +196,15 @@
     </item>
     
     <item>
+      <title>Multilinear form</title>
+      <link>https://azure-wings.github.io/wiki/notes/Multilinear-form/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Multilinear-form/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Norm</title>
       <link>https://azure-wings.github.io/wiki/notes/Norm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -122,6 +212,15 @@
       <guid>https://azure-wings.github.io/wiki/notes/Norm/</guid>
       <description>Intuition WIP
 Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the followings:</description>
+    </item>
+    
+    <item>
+      <title>Properties of determinant</title>
+      <link>https://azure-wings.github.io/wiki/notes/Properties-of-determinant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Properties-of-determinant/</guid>
+      <description></description>
     </item>
     
     <item>
