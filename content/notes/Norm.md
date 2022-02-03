@@ -41,7 +41,7 @@ The $L^2$-norm is also called the Euclidean norm.
 
 ## Unit Balls
 The set of all vectors with $L^p$-norm less than or equal to $1$,
-$$\mathcal{B}_p = \{\mathbf{x} \in \mathbb{R}^n:\lVert\mathbf{x}\rVert_p \leq 1 \}$$
+$$\mathcal{B}_p = \lbrace\mathbf{x} \in \mathbb{R}^n:\lVert\mathbf{x}\rVert_p \leq 1 \rbrace$$
 is called the unit $L^p$-norm ball.
 The following figure shows the shapes of the $\mathcal{B}_p$ balls in $\mathbb{R}^2$ for $p\in \{1/2, 1, 1.1, 4/3, 2, \infty\}$.
 
