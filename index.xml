@@ -7,11 +7,38 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://azure-wings.github.io/wiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title></title>
+      <link>https://azure-wings.github.io/wiki/Day-Planners/Day-Planner-20220315/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/Day-Planners/Day-Planner-20220315/</guid>
+      <description>Day Planner    </description>
+    </item>
+    
+    <item>
+      <title>Abstract syntax</title>
+      <link>https://azure-wings.github.io/wiki/notes/Abstract-syntax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Abstract-syntax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Alternating multilinear form</title>
       <link>https://azure-wings.github.io/wiki/notes/Alternating-multilinear-form/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://azure-wings.github.io/wiki/notes/Alternating-multilinear-form/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Artificial intelligence</title>
+      <link>https://azure-wings.github.io/wiki/notes/Artificial-intelligence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Artificial-intelligence/</guid>
       <description></description>
     </item>
     
@@ -52,11 +79,11 @@
     </item>
     
     <item>
-      <title>Computer engineering</title>
-      <link>https://azure-wings.github.io/wiki/index/Computer-engineering/</link>
+      <title>Computer organisation</title>
+      <link>https://azure-wings.github.io/wiki/notes/Computer-organisation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://azure-wings.github.io/wiki/index/Computer-engineering/</guid>
+      <guid>https://azure-wings.github.io/wiki/notes/Computer-organisation/</guid>
       <description></description>
     </item>
     
@@ -66,7 +93,16 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://azure-wings.github.io/wiki/index/Computer-science/</guid>
-      <description></description>
+      <description>Computer science is the study of computation, automation, and information.</description>
+    </item>
+    
+    <item>
+      <title>Concrete syntax</title>
+      <link>https://azure-wings.github.io/wiki/notes/Concrete-syntax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Concrete-syntax/</guid>
+      <description>Concrete syntax determines whether a certain string is a program or not.</description>
     </item>
     
     <item>
@@ -178,6 +214,15 @@
     </item>
     
     <item>
+      <title>Mathematical logic</title>
+      <link>https://azure-wings.github.io/wiki/notes/Mathematical-logic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Mathematical-logic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Mathematics</title>
       <link>https://azure-wings.github.io/wiki/index/Mathematics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -215,11 +260,56 @@ Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the f
     </item>
     
     <item>
+      <title>Operating systems</title>
+      <link>https://azure-wings.github.io/wiki/notes/Operating-systems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Operating-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parsers</title>
+      <link>https://azure-wings.github.io/wiki/notes/Parsers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Parsers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming language theory</title>
+      <link>https://azure-wings.github.io/wiki/notes/Programming-language-theory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Programming-language-theory/</guid>
+      <description>Programming language theory (PLT) is a branch of computer science that deals with the design, implementation, analysis, characterization, and classification of formal languages known as programming languages and of their individual features.</description>
+    </item>
+    
+    <item>
       <title>Properties of determinant</title>
       <link>https://azure-wings.github.io/wiki/notes/Properties-of-determinant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://azure-wings.github.io/wiki/notes/Properties-of-determinant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantics</title>
+      <link>https://azure-wings.github.io/wiki/notes/Semantics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Semantics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Set theory</title>
+      <link>https://azure-wings.github.io/wiki/notes/Set-theory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Set-theory/</guid>
       <description></description>
     </item>
     
@@ -230,6 +320,24 @@ Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the f
       
       <guid>https://azure-wings.github.io/wiki/notes/Subspace/</guid>
       <description>Definition  Let $V$ be a vector space over the field $F$.</description>
+    </item>
+    
+    <item>
+      <title>Syntax</title>
+      <link>https://azure-wings.github.io/wiki/notes/Syntax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Syntax/</guid>
+      <description>Syntax of a programming language decides the apprearance of the language.</description>
+    </item>
+    
+    <item>
+      <title>Topology</title>
+      <link>https://azure-wings.github.io/wiki/notes/Topology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Topology/</guid>
+      <description></description>
     </item>
     
     <item>
