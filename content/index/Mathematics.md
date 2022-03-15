@@ -4,7 +4,7 @@ math: true
 toc: true
 ---
 
-Mathematics is a study of abstract concepts such as numbers, quantities, spaces, changes, structures, etc., based on strict logic.
+**Mathematics** is a study of abstract concepts such as numbers, quantities, spaces, changes, structures, etc., based on strict logic.
 
 ## Algebra
 - [Linear algebra](notes/Linear%20algebra.md)
@@ -17,7 +17,7 @@ Mathematics is a study of abstract concepts such as numbers, quantities, spaces,
 - Fourier analysis
 
 ## Topology / Geometry
-- Topology
+- [Topology](notes/Topology.md)
 - Differential geometry
 
 ## Probability / Statistics
