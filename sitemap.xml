@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://azure-wings.github.io/wiki/Day-Planners/Day-Planner-20220315/</loc>
-    <lastmod>2022-03-15T23:32:36+09:00</lastmod>
-  </url><url>
-    <loc>https://azure-wings.github.io/wiki/Day-Planners/Day-Planner-20220316/</loc>
-    <lastmod>2022-03-17T13:14:17+09:00</lastmod>
-  </url><url>
-    <loc>https://azure-wings.github.io/wiki/Day-Planners/Day-Planner-20220317/</loc>
-    <lastmod>2022-03-17T13:14:17+09:00</lastmod>
-  </url><url>
     <loc>https://azure-wings.github.io/wiki/notes/Abstract-syntax/</loc>
     <lastmod>2022-03-17T13:14:17+09:00</lastmod>
   </url><url>
@@ -51,9 +42,6 @@
   </url><url>
     <loc>https://azure-wings.github.io/wiki/notes/Cramers-rule/</loc>
     <lastmod>2022-02-03T16:50:43+09:00</lastmod>
-  </url><url>
-    <loc>https://azure-wings.github.io/wiki/day-planners/</loc>
-    <lastmod>2022-03-17T13:14:17+09:00</lastmod>
   </url><url>
     <loc>https://azure-wings.github.io/wiki/notes/Determinant/</loc>
     <lastmod>2022-02-03T16:50:43+09:00</lastmod>
