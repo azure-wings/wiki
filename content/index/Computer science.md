@@ -27,8 +27,8 @@ toc: true
 - Compilers
 
 ## Computer systems
-- Digital system
-- [Computer organisation](notes/Computer%20organisation)
+- Digital systems
+- [Computer architecture](notes/Computer%20architecture.md)
 - [Operating systems](notes/Operating%20systems)
 - Computer network
 - Database
