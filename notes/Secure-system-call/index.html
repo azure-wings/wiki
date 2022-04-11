@@ -3,8 +3,8 @@
 <head>
     
     <meta charset="UTF-8">
-    <meta name="description" content="">
-    <title>Fundamental theorem of linear algebra</title>
+    <meta name="description" content="Importance The kernel must implement its system calls in a way that protects itself from all errors and attacks that might be launched by the misuse of the interface.">
+    <title>Secure system call</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="../../icon.png" />
 
@@ -396,9 +396,9 @@ if (!doNotTrack) {
 </div>
   </header>
   <article>
-      <h1>Fundamental theorem of linear algebra</h1>
+      <h1>Secure system call</h1>
       <p class="meta">
-          Last updated February 3, 2022
+          Last updated April 12, 2022
       </p>
       <ul class="tags">
           
@@ -406,10 +406,54 @@ if (!doNotTrack) {
       
       <aside class="mainTOC">
           <h3>Table of Contents</h3>
-          <nav id="TableOfContents"></nav>
+          <nav id="TableOfContents">
+  <ol>
+    <li><a href="#importance">Importance</a></li>
+    <li><a href="#implementation-of-a-secure-system-call">Implementation of a Secure System Call</a>
+      <ol>
+        <li></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
       </aside>
       
-      
+      <h2 id="importance">Importance</h2>
+<p>The kernel must implement its system calls in a way that protects itself from all errors and attacks that might be launched by the misuse of the interface. That is, the kernel should always assume that the parameters passed to a system call are intentionally designed to be as <em>malicious</em> as possible.</p>
+<h2 id="implementation-of-a-secure-system-call">Implementation of a Secure System Call</h2>
+<p><img src="../../notes/images/secure-syscall.png" alt="secure-syscall"></p>
+<ol>
+<li>The user program calls the user stub in the normal way, oblivious to the fact the implementation of the procedure is in fact in the kernel.</li>
+<li>The user stub fills in the code for the system call and executes the trap instruction.</li>
+<li>The hardware transfers control to the kernel, vectoring to the system call handler. The handler acts as a stub on the kernel side, <strong>copying</strong> and checking arguments and then calling the kernel implementation of system call.</li>
+<li>After the system call completes, it returns to the handler.</li>
+<li>The handler returns to user level at the next instruction in the stub.</li>
+<li>The stub returns to the caller.</li>
+</ol>
+<h4 id="tasks-of-the-kernel-stub">Tasks of the Kernel Stub</h4>
+<ol>
+<li><strong>Locate system call arguments</strong>.
+<ul>
+<li>Unlike a regular kernel procedure, the arguments to a system call are stored in user memory. Since the user stack pointer may be corrupted, the stub must check the address to verify whether the pointer argument is a legal address within the user domain. If it is legal, the stub converts the virtual address into a physical address.</li>
+</ul>
+</li>
+<li><strong>Validate parameters</strong>.
+<ul>
+<li>The kernel must protect itself against malicious or accidental errors in the format or content of its arguments. If an error is detected, the kernel returns to the user program.</li>
+</ul>
+</li>
+<li><strong>Copy before check</strong>.
+<ul>
+<li>An application might modify the parameter <em>after</em> the stub checks its value but <em>before</em> the parameter is used in the actual implementation of the routine. This is called a <strong>time of check vs. time of use (TOCTOU) attack</strong>. To prevent this, kernel copies the system call parameters into kernel memory before performing the necessary checks.</li>
+</ul>
+</li>
+<li><strong>Copy back any results</strong>.
+<ul>
+<li>For the user program to access the results of the system call, the stub must copy the result from the kernel into user memory. The kernel must translate the physical address into virtual address before performing the copy.</li>
+</ul>
+</li>
+</ol>
+
 
     </article>
     <hr/>
@@ -424,7 +468,7 @@ if (!doNotTrack) {
     
     
     <li>
-            <a href="../../notes/Linear-algebra">Linear algebra</a>
+            <a href="../../notes/Operating-systems">Operating systems</a>
         </li>
 </ul>
 
@@ -443,7 +487,7 @@ if (!doNotTrack) {
     }
 </style>
 <script>
-  const curPage = "https://azure-wings.github.io/wiki/notes/Fundamental-theorem-of-linear-algebra".replace("https://azure-wings.github.io/wiki", "")
+  const curPage = "https://azure-wings.github.io/wiki/notes/Secure-system-call".replace("https://azure-wings.github.io/wiki", "")
   const pathColors = [{"/moc":"#4388cc"}]
   let depth =  -1 
 

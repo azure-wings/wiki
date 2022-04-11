@@ -292,7 +292,7 @@ Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://azure-wings.github.io/wiki/notes/Operating-systems/</guid>
-      <description>Kernels and processes   Process  Dual-mode operation  Mode transfer   Implementation of mode transfer  x86 Mode transfer    </description>
+      <description>Kernels and processes   Process  Dual-mode operation  Mode transfer   Implementation of mode transfer  x86 Mode transfer    Secure system call  </description>
     </item>
     
     <item>
@@ -338,6 +338,15 @@ Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the f
       
       <guid>https://azure-wings.github.io/wiki/notes/Properties-of-determinant/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Secure system call</title>
+      <link>https://azure-wings.github.io/wiki/notes/Secure-system-call/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Secure-system-call/</guid>
+      <description>Importance The kernel must implement its system calls in a way that protects itself from all errors and attacks that might be launched by the misuse of the interface.</description>
     </item>
     
     <item>
@@ -400,7 +409,7 @@ Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://azure-wings.github.io/wiki/notes/x86-Mode-Transfer/</guid>
-      <description>Background on x86 Architecture </description>
+      <description>Background on x86 Architecture x86 is segmented, so pointers come in two parts.</description>
     </item>
     
   </channel>
