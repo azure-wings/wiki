@@ -10,3 +10,4 @@ toc: true
 - [Mode transfer](/notes/Mode%20transfer)
 	- [Implementation of mode transfer](/notes/Implementation%20of%20mode%20transfer)
 	- [x86 Mode transfer](/notes/x86%20Mode%20Transfer)
+- [Secure system call](/notes/Secure%20system%20call)
