@@ -52,12 +52,12 @@
     </item>
     
     <item>
-      <title>Computer organisation</title>
-      <link>https://azure-wings.github.io/wiki/notes/Computer-organisation/</link>
+      <title>Computer architecture</title>
+      <link>https://azure-wings.github.io/wiki/notes/Computer-architecture/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://azure-wings.github.io/wiki/notes/Computer-organisation/</guid>
-      <description></description>
+      <guid>https://azure-wings.github.io/wiki/notes/Computer-architecture/</guid>
+      <description>Computer architecture is a set of rules and methods that describe the functionality, organisation, and implementation of computer systems.</description>
     </item>
     
     <item>
@@ -106,6 +106,15 @@
     </item>
     
     <item>
+      <title>Dual-mode operation</title>
+      <link>https://azure-wings.github.io/wiki/notes/Dual-mode-operation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Dual-mode-operation/</guid>
+      <description>Definition Dual-mode operation of a kernel consists of two modes: user mode and kernel mode.</description>
+    </item>
+    
+    <item>
       <title>Field</title>
       <link>https://azure-wings.github.io/wiki/notes/Field/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -130,6 +139,15 @@
       
       <guid>https://azure-wings.github.io/wiki/notes/H%C3%B6lders-inequality/</guid>
       <description>Theorem For any vectors $\mathbf{x},\mathbf{y} \in \mathbb{R}^n$ and for any $p,q \geq 1$ such that $\frac{1}{p} + \frac{1}{q} = 1$, it holds that $$ |\mathbf{x}^\top\mathbf{y}| \leq \sum\limits_{i=1}^n|x_iy_i| \leq |\mathbf{x}|_p|\mathbf{y}|_q.</description>
+    </item>
+    
+    <item>
+      <title>Implementation of mode transfer</title>
+      <link>https://azure-wings.github.io/wiki/notes/Implementation-of-mode-transfer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Implementation-of-mode-transfer/</guid>
+      <description>Importance The context switch ( mode transfer) must be carefully crafted, and it relies on hardware support.</description>
     </item>
     
     <item>
@@ -178,6 +196,24 @@
     </item>
     
     <item>
+      <title>MIPS Assembly language</title>
+      <link>https://azure-wings.github.io/wiki/notes/MIPS-Assembly-language/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/MIPS-Assembly-language/</guid>
+      <description>Operands and operations MIPS Operands  Registers(2^5 = 32): $s0-$s7, $t0-$t9, $zero, $a0-$a3, $v0-$v1, $gp, $fp, $sp, $ra, $at Memory words (2^30): Memory[X]  MIPS assembly language    Category Instruction Example Meaning     Arithmetic Add add $s1, $s2, $s3 $s1 = $s2 + $s3    Subtraction sub $s1, $s2, $s3 $s1 = $s2 - $s3    Add immediate addi $s1, $s2, 20 $s1 = $s2 + 20   Data Transfer Load word lw $s1, 20($s2) $s1 = Memory[$s2 + 20]    Store word sw $s1, 20($s2) Memory[$s2 + 20] = $s1    Load half lh     Load half unsigned lhu     Store half sh     Load byte lb     Load byte unsigned lbu     Store byte sb     Load linked word ll     Store condition.</description>
+    </item>
+    
+    <item>
+      <title>Mode transfer</title>
+      <link>https://azure-wings.github.io/wiki/notes/Mode-transfer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Mode-transfer/</guid>
+      <description>The operating system must provide a way to safely transfer between user mode and kernel mode.</description>
+    </item>
+    
+    <item>
       <title>Multilinear form</title>
       <link>https://azure-wings.github.io/wiki/notes/Multilinear-form/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -202,7 +238,7 @@ Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://azure-wings.github.io/wiki/notes/Operating-systems/</guid>
-      <description></description>
+      <description>Kernels and processes   Process  Dual-mode operation  Mode transfer   Implementation of mode transfer  x86 Mode transfer    </description>
     </item>
     
     <item>
@@ -211,6 +247,24 @@ Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://azure-wings.github.io/wiki/notes/Parsers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Performance</title>
+      <link>https://azure-wings.github.io/wiki/notes/Performance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Performance/</guid>
+      <description>Defining Performance  Response time (execution time): The time between start and completion of a task Throughput (Bandwidth): The number of tasks completed per unit time  Measuring Performance  Clock cycle (s): The time for one clock period (usually the processor clock) - constant Clock rate (Hz): The inverse of clock period CPU execution time: The time CPU spends computing for a certain task (does not include time spent waiting for I/O or running other programs) $$ \begin{align*} \text{CPU time} &amp;amp;= \text{CPU clock cycles} \times \text{Clock cycle time}\ &amp;amp;= \frac{\text{CPU clock cycles}}{\text{Clock rate}} \end{align*} $$ CPI (Clock cycles per instruction): The average number of clock cycles per instruction for a program or program fragment.</description>
+    </item>
+    
+    <item>
+      <title>Process</title>
+      <link>https://azure-wings.github.io/wiki/notes/Process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Process/</guid>
       <description></description>
     </item>
     
@@ -284,6 +338,15 @@ Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the f
       
       <guid>https://azure-wings.github.io/wiki/notes/Vector-space/</guid>
       <description>Definition A vector space $V$ over a field $F$ consists of a set on which two operations $+$ (addition) and $\cdot$ (scalar multiplication) are defined so that the followings hold.</description>
+    </item>
+    
+    <item>
+      <title>x86 Mode Transfer</title>
+      <link>https://azure-wings.github.io/wiki/notes/x86-Mode-Transfer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/x86-Mode-Transfer/</guid>
+      <description>Background on x86 Architecture </description>
     </item>
     
   </channel>
