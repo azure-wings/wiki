@@ -18,5 +18,14 @@ toc: true
 	- [Comparison between processes and threads](/notes/Comparison%20between%20processes%20and%20threads)
 	- [Thread data structures](/notes/Thread%20data%20structures)
 	- [Thread life cycle](/notes/Thread%20life%20cycle)
-	- [Kernel thread](/notes/Kernel%20thread)
-	- 
+	- [Thread models](/notes/Thread%20models)
+
+## Synchronisation
+- [Lock](/notes/Lock)
+- [Condition variable](/notes/Condition%20variable)
+- [Semaphore](/notes/Semaphore)
+- [Deadlock](/notes/Deadlock)
+
+## Scheduling
+- [Separation of mechanism and policy](notes/Separation%20of%20mechanism%20and%20policy.md)
+- 

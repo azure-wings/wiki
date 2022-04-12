@@ -1,6 +1,5 @@
 ---
-title: "Kernel thread"
+title: "Deadlock"
 math: true
 toc: true
 ---
-
