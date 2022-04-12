@@ -28,6 +28,9 @@
     <loc>https://azure-wings.github.io/wiki/notes/Cauchy-Schwartz-inequality/</loc>
     <lastmod>2022-02-02T02:20:40+09:00</lastmod>
   </url><url>
+    <loc>https://azure-wings.github.io/wiki/notes/Comparison-between-processes-and-threads/</loc>
+    <lastmod>2022-04-12T22:25:19+09:00</lastmod>
+  </url><url>
     <loc>https://azure-wings.github.io/wiki/notes/Computer-architecture/</loc>
     <lastmod>2022-04-12T01:27:56+09:00</lastmod>
   </url><url>
@@ -64,7 +67,7 @@
     <loc>https://azure-wings.github.io/wiki/notes/H%C3%B6lders-inequality/</loc>
   </url><url>
     <loc>https://azure-wings.github.io/wiki/notes/Implementation-of-mode-transfer/</loc>
-    <lastmod>2022-04-12T01:27:56+09:00</lastmod>
+    <lastmod>2022-04-12T22:25:19+09:00</lastmod>
   </url><url>
     <loc>https://azure-wings.github.io/wiki/index/</loc>
     <lastmod>2022-04-12T01:27:56+09:00</lastmod>
@@ -74,6 +77,9 @@
   </url><url>
     <loc>https://azure-wings.github.io/wiki/notes/Isomorphism/</loc>
     <lastmod>2022-02-03T16:50:43+09:00</lastmod>
+  </url><url>
+    <loc>https://azure-wings.github.io/wiki/notes/Kernel-thread/</loc>
+    <lastmod>2022-04-12T22:25:19+09:00</lastmod>
   </url><url>
     <loc>https://azure-wings.github.io/wiki/notes/Linear-algebra/</loc>
     <lastmod>2022-02-03T16:53:36+09:00</lastmod>
@@ -91,7 +97,7 @@
     <lastmod>2022-04-12T01:27:56+09:00</lastmod>
   </url><url>
     <loc>https://azure-wings.github.io/wiki/notes/Mode-transfer/</loc>
-    <lastmod>2022-04-12T01:27:56+09:00</lastmod>
+    <lastmod>2022-04-12T22:25:19+09:00</lastmod>
   </url><url>
     <loc>https://azure-wings.github.io/wiki/index/Movies/</loc>
     <lastmod>2022-02-02T02:13:09+09:00</lastmod>
@@ -103,10 +109,10 @@
     <lastmod>2022-04-12T01:27:56+09:00</lastmod>
   </url><url>
     <loc>https://azure-wings.github.io/wiki/notes/</loc>
-    <lastmod>2022-04-12T04:45:52+09:00</lastmod>
+    <lastmod>2022-04-12T22:25:19+09:00</lastmod>
   </url><url>
     <loc>https://azure-wings.github.io/wiki/notes/Operating-systems/</loc>
-    <lastmod>2022-04-12T04:45:52+09:00</lastmod>
+    <lastmod>2022-04-12T22:25:19+09:00</lastmod>
   </url><url>
     <loc>https://azure-wings.github.io/wiki/notes/Parsers/</loc>
     <lastmod>2022-03-15T23:32:36+09:00</lastmod>
@@ -115,7 +121,7 @@
     <lastmod>2022-04-12T01:27:56+09:00</lastmod>
   </url><url>
     <loc>https://azure-wings.github.io/wiki/notes/Process/</loc>
-    <lastmod>2022-04-12T01:27:56+09:00</lastmod>
+    <lastmod>2022-04-12T22:25:19+09:00</lastmod>
   </url><url>
     <loc>https://azure-wings.github.io/wiki/notes/Programming-language-theory/</loc>
     <lastmod>2022-03-15T23:32:36+09:00</lastmod>
@@ -124,7 +130,7 @@
     <lastmod>2022-02-03T16:50:43+09:00</lastmod>
   </url><url>
     <loc>https://azure-wings.github.io/wiki/notes/Secure-system-call/</loc>
-    <lastmod>2022-04-12T04:45:52+09:00</lastmod>
+    <lastmod>2022-04-12T22:25:19+09:00</lastmod>
   </url><url>
     <loc>https://azure-wings.github.io/wiki/notes/Semantics/</loc>
     <lastmod>2022-03-15T23:32:36+09:00</lastmod>
@@ -138,7 +144,19 @@
     <loc>https://azure-wings.github.io/wiki/notes/Syntax/</loc>
     <lastmod>2022-03-15T23:32:36+09:00</lastmod>
   </url><url>
+    <loc>https://azure-wings.github.io/wiki/notes/System-upcalls/</loc>
+    <lastmod>2022-04-12T22:25:19+09:00</lastmod>
+  </url><url>
     <loc>https://azure-wings.github.io/wiki/tags/</loc>
+  </url><url>
+    <loc>https://azure-wings.github.io/wiki/notes/Thread/</loc>
+    <lastmod>2022-04-12T22:25:19+09:00</lastmod>
+  </url><url>
+    <loc>https://azure-wings.github.io/wiki/notes/Thread-data-structures/</loc>
+    <lastmod>2022-04-12T22:25:19+09:00</lastmod>
+  </url><url>
+    <loc>https://azure-wings.github.io/wiki/notes/Thread-life-cycle/</loc>
+    <lastmod>2022-04-12T22:25:19+09:00</lastmod>
   </url><url>
     <loc>https://azure-wings.github.io/wiki/notes/Topology/</loc>
     <lastmod>2022-03-15T23:32:36+09:00</lastmod>
@@ -147,6 +165,6 @@
     <lastmod>2022-02-03T01:44:52+09:00</lastmod>
   </url><url>
     <loc>https://azure-wings.github.io/wiki/notes/x86-Mode-Transfer/</loc>
-    <lastmod>2022-04-12T04:45:52+09:00</lastmod>
+    <lastmod>2022-04-12T22:25:19+09:00</lastmod>
   </url>
 </urlset>

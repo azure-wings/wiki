@@ -70,6 +70,15 @@
     </item>
     
     <item>
+      <title>Comparison between processes and threads</title>
+      <link>https://azure-wings.github.io/wiki/notes/Comparison-between-processes-and-threads/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Comparison-between-processes-and-threads/</guid>
+      <description>Comparison      Processes  Threads     Switch Overhead High (CPU state + Memory, I/O state) Low (CPU state only)   Creation Cost High Low   CPU Protection Yes Yes   Memory, I/O Protection Yes No   Sharing Overhead High (Involves at leas a context switch) Low (Because thread switch overhead is low; may not need to switch context)   Sharing Security High (One process cannot corrupt the other) Low (A thread can write the memory used by another thread)    Diagrams </description>
+    </item>
+    
+    <item>
       <title>Computer architecture</title>
       <link>https://azure-wings.github.io/wiki/notes/Computer-architecture/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -205,6 +214,15 @@
     </item>
     
     <item>
+      <title>Kernel thread</title>
+      <link>https://azure-wings.github.io/wiki/notes/Kernel-thread/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Kernel-thread/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Linear algebra</title>
       <link>https://azure-wings.github.io/wiki/notes/Linear-algebra/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -292,7 +310,7 @@ Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://azure-wings.github.io/wiki/notes/Operating-systems/</guid>
-      <description>Kernels and processes   Process  Dual-mode operation  Mode transfer   Implementation of mode transfer  x86 Mode transfer    Secure system call  </description>
+      <description>Kernels and Processes   Process  Dual-mode operation  Mode transfer   Implementation of mode transfer  x86 Mode transfer    Secure system call  System upcalls  Concurrency and Threads   Thread   Comparison between processes and threads  Thread data structures  Thread life cycle  Kernel thread     </description>
     </item>
     
     <item>
@@ -319,7 +337,7 @@ Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://azure-wings.github.io/wiki/notes/Process/</guid>
-      <description></description>
+      <description>A process is an instance of a program; it is the execution of a program with restricted rights.</description>
     </item>
     
     <item>
@@ -383,6 +401,42 @@ Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the f
       
       <guid>https://azure-wings.github.io/wiki/notes/Syntax/</guid>
       <description>Syntax of a programming language decides the apprearance of the language.</description>
+    </item>
+    
+    <item>
+      <title>System upcalls</title>
+      <link>https://azure-wings.github.io/wiki/notes/System-upcalls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/System-upcalls/</guid>
+      <description>Necessity of System Upcalls To allow applications to implement operating system-like functionality, more than system call is required; applications can also benefit from being told when events occur that need their immediate attention.</description>
+    </item>
+    
+    <item>
+      <title>Thread</title>
+      <link>https://azure-wings.github.io/wiki/notes/Thread/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Thread/</guid>
+      <description>A thread is a single execution sequence that represents a separately schedulable task.</description>
+    </item>
+    
+    <item>
+      <title>Thread data structures</title>
+      <link>https://azure-wings.github.io/wiki/notes/Thread-data-structures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Thread-data-structures/</guid>
+      <description>Per-Thread State and Thread Control Block (TCB) The operating system needs a data structure to represent a threads&amp;rsquo;s state.</description>
+    </item>
+    
+    <item>
+      <title>Thread life cycle</title>
+      <link>https://azure-wings.github.io/wiki/notes/Thread-life-cycle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Thread-life-cycle/</guid>
+      <description>Init  Thread creation thread_create() puts a thread into its init state and allocates and initialises per-thread data structures.</description>
     </item>
     
     <item>
