@@ -15,7 +15,7 @@ An **interrupt** is an asynchronous signal to the processor that some external e
 - Processor timer
 - I/O requests (keyboard, mouse, network, ...)
 
-A processor checks for whether an interrupt has arrived as it executes and, if so, it completes or stalls any instructions that are in progress. On a multiprocessorm an interrupt is taken on only one of the processors. Each different type of interrupt requires its own **interrupt handler**.
+A processor checks for whether an interrupt has arrived as it executes and, if so, it completes or stalls any instructions that are in progress. On a multiprocessor, an interrupt is taken on only one of the processors. Each different type of interrupt requires its own **interrupt handler**.
 
 #### Processor Exceptions
 A **processor exception** is a hadware event caused by (unexpected or malicious) user program behaviour that causes a transfer of control to the kernel. The followings are examples of processor exceptions.

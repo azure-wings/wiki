@@ -21,9 +21,9 @@ The interrupt vector table is an array of pointers, with each entry pointing to 
 ![interrupt-vector-table](/notes/images/interrupt-vector-table.png)
 
 ## Interrupt Stack
-**Interrupt stack** is a region of <u>kernel</u> memory pointed by a special, privileged register. When an interrupt, processor exception, or system call trap causes a context switch into the kernel, the hardware changes the stack pointer to point to the base of the kernel's interrupt stack. The <u>hardware</u> automatically saves some of the interrupted process's registers by pushing them onto the interrupt stack before calling the kernel's handler.
+**Interrupt stack** is a region of _kernel_ memory pointed by a special, privileged register. When an interrupt, processor exception, or system call trap causes a context switch into the kernel, the hardware changes the stack pointer to point to the base of the kernel's interrupt stack. The _hardware_ automatically saves some of the interrupted process's registers by pushing them onto the interrupt stack before calling the kernel's handler.
 
-When the kernel handler handler runs, it pushes any remaining registers onto the stack before pereforming its work. When returning from the interrupt, processor exception or system call trap, the reverse occurs. The handler pops the saved registers and the hardware restores the registers it saved, returning back to the point where the processor was interrupted. When returning from a system call, the value of the saved program counter <u>must be incremented</u>.
+When the kernel handler handler runs, it pushes any remaining registers onto the stack before pereforming its work. When returning from the interrupt, processor exception or system call trap, the reverse occurs. The handler pops the saved registers and the hardware restores the registers it saved, returning back to the point where the processor was interrupted. When returning from a system call, the value of the saved program counter _must be incremented_.
 
 On a multiprocessor, each processor needs to have its own interrupt stack so that the kernel can handle simultaneous system calls and exceptions aacross multiple processors.
 
@@ -38,7 +38,7 @@ Most operating system kernels go one step further and allocate a kernel interrup
 - If the process is waiting for an I/O event to complete, its kernel stack contains the suspended computation to be resumed when the I/O finishes.
 
 ## Interrupt Masking
-In certain regions of the kernel such as interrupt handlers or a scheduler, taking an interrupt could cause confusion. In such cases, the hardware provides a <u>privileged instruction</u> to temporarily defer the delivery of an interrupt until it is safe to do so.
+In certain regions of the kernel such as interrupt handlers or a scheduler, taking an interrupt could cause confusion. In such cases, the hardware provides a _privileged instruction_ to temporarily defer the delivery of an interrupt until it is safe to do so.
 
 If multiple interrupts arrive while interrupts are disabled, the hardware delivers them in turn when interrupts are re-enabled. However, due to the limited buffering of hardwares, some interrupts may be lost.
 
