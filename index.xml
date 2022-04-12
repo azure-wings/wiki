@@ -106,6 +106,15 @@
     </item>
     
     <item>
+      <title>Condition variable</title>
+      <link>https://azure-wings.github.io/wiki/notes/Condition-variable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Condition-variable/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Coordinates</title>
       <link>https://azure-wings.github.io/wiki/notes/Coordinates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -120,6 +129,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://azure-wings.github.io/wiki/notes/Cramers-rule/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deadlock</title>
+      <link>https://azure-wings.github.io/wiki/notes/Deadlock/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Deadlock/</guid>
       <description></description>
     </item>
     
@@ -214,15 +232,6 @@
     </item>
     
     <item>
-      <title>Kernel thread</title>
-      <link>https://azure-wings.github.io/wiki/notes/Kernel-thread/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://azure-wings.github.io/wiki/notes/Kernel-thread/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Linear algebra</title>
       <link>https://azure-wings.github.io/wiki/notes/Linear-algebra/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -237,6 +246,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://azure-wings.github.io/wiki/notes/Linear-transformation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lock</title>
+      <link>https://azure-wings.github.io/wiki/notes/Lock/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Lock/</guid>
       <description></description>
     </item>
     
@@ -310,7 +328,7 @@ Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://azure-wings.github.io/wiki/notes/Operating-systems/</guid>
-      <description>Kernels and Processes   Process  Dual-mode operation  Mode transfer   Implementation of mode transfer  x86 Mode transfer    Secure system call  System upcalls  Concurrency and Threads   Thread   Comparison between processes and threads  Thread data structures  Thread life cycle  Kernel thread     </description>
+      <description>Kernels and Processes   Process  Dual-mode operation  Mode transfer   Implementation of mode transfer  x86 Mode transfer    Secure system call  System upcalls  Concurrency and Threads   Thread   Comparison between processes and threads  Thread data structures  Thread life cycle  Thread models    Synchronisation   Lock  Condition variable  Semaphore  Deadlock  Scheduling   Separation of mechanism and policy   </description>
     </item>
     
     <item>
@@ -377,6 +395,24 @@ Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the f
     </item>
     
     <item>
+      <title>Semaphore</title>
+      <link>https://azure-wings.github.io/wiki/notes/Semaphore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Semaphore/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Separation of mechanism and policy</title>
+      <link>https://azure-wings.github.io/wiki/notes/Separation-of-mechanism-and-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Separation-of-mechanism-and-policy/</guid>
+      <description>Definition The separation of mechanism and policy is a design principle in computer science.</description>
+    </item>
+    
+    <item>
       <title>Set theory</title>
       <link>https://azure-wings.github.io/wiki/notes/Set-theory/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -437,6 +473,15 @@ Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the f
       
       <guid>https://azure-wings.github.io/wiki/notes/Thread-life-cycle/</guid>
       <description>Init  Thread creation thread_create() puts a thread into its init state and allocates and initialises per-thread data structures.</description>
+    </item>
+    
+    <item>
+      <title>Thread models</title>
+      <link>https://azure-wings.github.io/wiki/notes/Thread-models/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Thread-models/</guid>
+      <description>Support for threads may be provided either at the user level, for user threads, or by the kernel, for kernel threads.</description>
     </item>
     
     <item>
