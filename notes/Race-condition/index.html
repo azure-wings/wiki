@@ -3,8 +3,8 @@
 <head>
     
     <meta charset="UTF-8">
-    <meta name="description" content="">
-    <title>Semaphore</title>
+    <meta name="description" content="Definition A race condition is a situation where multiple process access and manipulate the same data concurrently, and the outcome of the execution depends on the particular order (interleaving) of such accesses.">
+    <title>Race condition</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="../../icon.png" />
 
@@ -396,9 +396,9 @@ if (!doNotTrack) {
 </div>
   </header>
   <article>
-      <h1>Semaphore</h1>
+      <h1>Race condition</h1>
       <p class="meta">
-          Last updated April 13, 2022
+          Last updated April 15, 2022
       </p>
       <ul class="tags">
           
@@ -406,10 +406,62 @@ if (!doNotTrack) {
       
       <aside class="mainTOC">
           <h3>Table of Contents</h3>
-          <nav id="TableOfContents"></nav>
+          <nav id="TableOfContents">
+  <ol>
+    <li><a href="#definition">Definition</a></li>
+    <li><a href="#example">Example</a></li>
+  </ol>
+</nav>
       </aside>
       
-      
+      <h2 id="definition">Definition</h2>
+<p>A <strong>race condition</strong> is a situation where multiple process access and manipulate <em>the same data</em> concurrently, and the outcome of the execution depends on <em>the particular order</em> (interleaving) of such accesses.</p>
+<h2 id="example">Example</h2>
+<p>Suppose that initially <code>y = 12</code>, and a program with two threads that do the following is run.</p>
+<table>
+<thead>
+<tr>
+<th>Thread A</th>
+<th>Thread B</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>x = y + 1</code></td>
+<td><code>y = y * 2</code></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>If thread A reads <code>y</code> before thread B updates <code>y</code>, the result is <code>x = 13</code>.</li>
+<li>Otherwise, the result is <code>x = 25</code>.</li>
+</ul>
+<p>Suppose that initially <code>x = 0</code>, and a program with two threads that do the following is run.</p>
+<table>
+<thead>
+<tr>
+<th>Thread A</th>
+<th>Thread B</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>x = 1</code></td>
+<td><code>y = 2</code></td>
+</tr>
+<tr>
+<td><code>x = y + 1</code></td>
+<td><code>y = y * 2*</code></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>If thread A runs to completion and then thread B starts and runs to completion, the result is <code>x = 1</code>.</li>
+<li>If thread B runs to completion and then thread A starts and runs to completion, the result is <code>x = 5</code>.</li>
+<li>If thread B executes <code>y = 2</code> and interleaves - thread A starts and runs to completion - and thread B executes <code>y = y * 2</code>, the result is <code>x = 3</code>.</li>
+<li>If thread A executes <code>x = 1</code> and interleaves - thread B starts and runs to completion - and thread A executes <code>x = y + 1</code>, the result is <code>x = 5</code>.</li>
+</ul>
+
 
     </article>
     <hr/>
@@ -443,7 +495,7 @@ if (!doNotTrack) {
     }
 </style>
 <script>
-  const curPage = "https://azure-wings.github.io/wiki/notes/Semaphore".replace("https://azure-wings.github.io/wiki", "")
+  const curPage = "https://azure-wings.github.io/wiki/notes/Race-condition".replace("https://azure-wings.github.io/wiki", "")
   const pathColors = [{"/moc":"#4388cc"}]
   let depth =  -1 
 

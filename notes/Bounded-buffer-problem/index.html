@@ -3,8 +3,8 @@
 <head>
     
     <meta charset="UTF-8">
-    <meta name="description" content="">
-    <title>Semaphore</title>
+    <meta name="description" content="Definition 1 2 3 4 5  &#43;----------&#43; &#43;----------&#43; | | &#43;----------&#43; | | | Producer |---&gt;| Buffer |---&gt;| Consumer | | | &#43;----------&#43; | | &#43;----------&#43; &#43;----------&#43;    The producer puts objects into a shared buffer.">
+    <title>Bounded buffer problem</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="../../icon.png" />
 
@@ -396,9 +396,9 @@ if (!doNotTrack) {
 </div>
   </header>
   <article>
-      <h1>Semaphore</h1>
+      <h1>Bounded buffer problem</h1>
       <p class="meta">
-          Last updated April 13, 2022
+          Last updated April 15, 2022
       </p>
       <ul class="tags">
           
@@ -406,10 +406,156 @@ if (!doNotTrack) {
       
       <aside class="mainTOC">
           <h3>Table of Contents</h3>
-          <nav id="TableOfContents"></nav>
+          <nav id="TableOfContents">
+  <ol>
+    <li><a href="#definition">Definition</a></li>
+    <li><a href="#implementation-example">Implementation Example</a></li>
+  </ol>
+</nav>
       </aside>
       
-      
+      <h2 id="definition">Definition</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">+----------+                    +----------+
+|          |    +----------+    |          |
+| Producer |---&gt;|  Buffer  |---&gt;| Consumer |
+|          |    +----------+    |          |
++----------+                    +----------+
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>The producer puts objects into a shared buffer.</li>
+<li>The consumer takes them out.</li>
+<li>There must be a synchronisation to coordinate between the producer and the consumer.</li>
+<li>The producer and the consumer should not need to work in 
+
+
+<a href="../../notes/Lock" rel="noopener" class="internal-link" data-src="../../notes/Lock">lock</a> step; there is a fixed-size buffer between them.
+<ul>
+<li>The access to this buffer must be synchronised.</li>
+<li>The producer must wait if the buffer is full.</li>
+<li>The consumer must wait if the buffer is empty.</li>
+</ul>
+</li>
+</ul>
+<h2 id="implementation-example">Implementation Example</h2>
+<ul>
+<li><strong>Producer</strong></li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-C" data-lang="C"><span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">MAX_LOOP</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span>
+<span class="p">{</span>
+	<span class="n">try_put</span> <span class="p">(</span><span class="n">i</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><strong>Consumer</strong></li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-C" data-lang="C"><span class="k">while</span> <span class="p">(</span><span class="nb">true</span><span class="p">)</span>
+<span class="p">{</span>
+	<span class="kt">int</span> <span class="n">tmp</span> <span class="o">=</span> <span class="n">try_get</span> <span class="p">();</span>
+	<span class="n">printf</span> <span class="p">(</span><span class="s">&#34;%d</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">tmp</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Initially, the buffer is a <em>queue</em> with <code>front = tail = 0</code>, and the lock is initially <code>free</code>. Let <code>MAX</code> be the maximum capacity of the buffer. Then, the <code>try_put ()</code> and <code>try_get ()</code> can be implemented as follows.</p>
+<ul>
+<li><strong><code>try_put</code></strong></li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-C" data-lang="C"><span class="n">try_put</span> <span class="p">(</span><span class="n">item</span><span class="p">)</span>
+<span class="p">{</span>
+	<span class="n">lock</span><span class="p">.</span><span class="n">acquire</span> <span class="p">();</span>
+	<span class="k">if</span> <span class="p">((</span><span class="n">tail</span> <span class="o">-</span> <span class="n">front</span><span class="p">)</span> <span class="o">&lt;</span> <span class="n">size</span><span class="p">)</span>    <span class="c1">// Buffer is not full
+</span><span class="c1"></span>	<span class="p">{</span>
+		<span class="n">buffer</span><span class="p">[</span><span class="n">tail</span> <span class="o">%</span> <span class="n">MAX</span><span class="p">]</span> <span class="o">=</span> <span class="n">item</span><span class="p">;</span>
+		<span class="n">tail</span><span class="o">++</span><span class="p">;</span>
+	<span class="p">}</span>
+	<span class="n">lock</span><span class="p">.</span><span class="n">release</span> <span class="p">();</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><strong><code>try_get</code></strong></li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-C" data-lang="C"><span class="n">try_get</span> <span class="p">()</span>
+<span class="p">{</span>
+	<span class="n">item</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
+	<span class="n">lock_acquire</span> <span class="p">();</span>
+	<span class="k">if</span> <span class="p">(</span><span class="n">front</span> <span class="o">&lt;</span> <span class="n">tail</span><span class="p">)</span>            <span class="c1">// Buffer is not empty
+</span><span class="c1"></span>	<span class="p">{</span>
+		<span class="n">item</span> <span class="o">=</span> <span class="n">buffer</span><span class="p">[</span><span class="n">front</span> <span class="o">%</span> <span class="n">MAX</span><span class="p">];</span>
+		<span class="n">front</span><span class="o">++</span><span class="p">;</span>
+	<span class="p">}</span>
+	<span class="n">lock_release</span> <span class="p">();</span>
+	<span class="k">return</span> <span class="n">item</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Here, the shared states are <code>buffer</code>, <code>front</code>, and <code>tail</code>.</p>
+<p>However, one cannot assure that the <code>buffer</code> is empty when <code>try_get ()</code> returns <code>NULL</code>.</p>
+<ul>
+<li>If a producer generates an item between <code>lock_release ()</code> and <code>return</code>, even though the <code>buffer</code> is not empty, <code>try_get ()</code> returns <code>NULL</code>.</li>
+<li>For a thread to know when the <code>buffer</code> is empty, there must be <em>
+
+
+<a href="../../notes/Condition-variable" rel="noopener" class="internal-link" data-src="../../notes/Condition-variable">another primitive</a></em> for the purpose.</li>
+</ul>
+
 
     </article>
     <hr/>
@@ -443,7 +589,7 @@ if (!doNotTrack) {
     }
 </style>
 <script>
-  const curPage = "https://azure-wings.github.io/wiki/notes/Semaphore".replace("https://azure-wings.github.io/wiki", "")
+  const curPage = "https://azure-wings.github.io/wiki/notes/Bounded-buffer-problem".replace("https://azure-wings.github.io/wiki", "")
   const pathColors = [{"/moc":"#4388cc"}]
   let depth =  -1 
 

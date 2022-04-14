@@ -3,8 +3,8 @@
 <head>
     
     <meta charset="UTF-8">
-    <meta name="description" content="">
-    <title>Semaphore</title>
+    <meta name="description" content="Definition The Too Much Milk problem models two roommates who share a refrigerator and, who make sure the refrigerator is always well stocked with milk.">
+    <title>Too much milk problem</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="../../icon.png" />
 
@@ -396,9 +396,9 @@ if (!doNotTrack) {
 </div>
   </header>
   <article>
-      <h1>Semaphore</h1>
+      <h1>Too much milk problem</h1>
       <p class="meta">
-          Last updated April 13, 2022
+          Last updated April 15, 2022
       </p>
       <ul class="tags">
           
@@ -406,10 +406,327 @@ if (!doNotTrack) {
       
       <aside class="mainTOC">
           <h3>Table of Contents</h3>
-          <nav id="TableOfContents"></nav>
+          <nav id="TableOfContents">
+  <ol>
+    <li><a href="#definition">Definition</a></li>
+    <li><a href="#example-situation">Example Situation</a>
+      <ol>
+        <li></li>
+      </ol>
+    </li>
+    <li><a href="#solutions">Solutions</a>
+      <ol>
+        <li></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
       </aside>
       
-      
+      <h2 id="definition">Definition</h2>
+<p>The <strong>Too Much Milk</strong> problem models two roommates who share a refrigerator and, who make sure the refrigerator is <em>always</em> well stocked with milk.</p>
+<h2 id="example-situation">Example Situation</h2>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Roommate 1</th>
+<th>Roommate 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3:00</td>
+<td>Look in fridge; out of milk.</td>
+<td></td>
+</tr>
+<tr>
+<td>3:05</td>
+<td>Leave for store.</td>
+<td></td>
+</tr>
+<tr>
+<td>3:10</td>
+<td>Arrive at store.</td>
+<td>Look in fridge; out of milk.</td>
+</tr>
+<tr>
+<td>3:15</td>
+<td>Buy milk.</td>
+<td>Leave for store.</td>
+</tr>
+<tr>
+<td>3:20</td>
+<td>Arrive home; put milk away.</td>
+<td>Arrive at store.</td>
+</tr>
+<tr>
+<td>3:25</td>
+<td></td>
+<td>Buy milk.</td>
+</tr>
+<tr>
+<td>3:30</td>
+<td></td>
+<td>Arrive home; put milk away.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><strong>Oh no, too much milk!</strong></td>
+</tr>
+</tbody>
+</table>
+<p>One can model each roommate as a <strong>thread</strong> and the number of bottles of milk in the fridge with <strong>a variable in memory</strong>. Two properties needs to be met for a solution: <strong>safety</strong> and <strong>liveliness</strong>.</p>
+<h4 id="safety">Safety</h4>
+<p>A program never enters a bad state.</p>
+<ul>
+<li>In the too much milk problem, never more than one person buys a milk.</li>
+</ul>
+<h4 id="liveliness">Liveliness</h4>
+<p>A program must, eventually, enter a good state.</p>
+<ul>
+<li>In the too much milk problem, if milk is needed, someone eventually buys it.</li>
+</ul>
+<h2 id="solutions">Solutions</h2>
+<h4 id="solution-1-leave-a-note">Solution 1: Leave a note</h4>
+<p>The basic idea is to leave a note on the fridge before going to the store. The simplest idea to implement this is to set a flag when going to buy milk and to check this flag before going to buy milk.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">if (milk == 0)         // If no milk
+{
+	if (!note)     // If no note
+	{
+		leave note
+		buy milk
+		remove note
+	}
+}
+</code></pre></td></tr></table>
+</div>
+</div><p>However, this implementation can violate safety; it makes the problem worse since it fails intermittenly!</p>
+<table>
+<thead>
+<tr>
+<th>Thread A</th>
+<th>Thread B</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>if (milk == 0)</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>if (note == 0)</code></td>
+<td></td>
+</tr>
+<tr>
+<td><em>Interleaves</em></td>
+<td><code>if (milk == 0)</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>if (note == 0)</code></td>
+</tr>
+<tr>
+<td><code>note = 1;</code></td>
+<td><em>Interleaves</em></td>
+</tr>
+<tr>
+<td><code>milk++;</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>note = 0;</code></td>
+<td></td>
+</tr>
+<tr>
+<td><em>Interleaves</em></td>
+<td><code>note = 1;</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>milk++;</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>note = 0;</code></td>
+</tr>
+</tbody>
+</table>
+<h4 id="solution-2-using-two-notes">Solution 2: Using two notes</h4>
+<ul>
+<li>Thread A</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">leave note A
+if (!note B)
+{
+	if (milk == 0)
+		buy milk
+}
+remove note A
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>Thread B</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">leave note B
+if (!note A)
+{
+	if (milk == 0)
+		buy milk
+}
+remove note B
+</code></pre></td></tr></table>
+</div>
+</div><p>This solution is <strong>safe</strong>. However, this solution does not ensure <strong>liveliness</strong>. Although it is unlikely to happen, but it is possible at worst case.</p>
+<table>
+<thead>
+<tr>
+<th>Thread A</th>
+<th>Thread B</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>leave note A</code></td>
+<td></td>
+</tr>
+<tr>
+<td><em>Interleaves</em></td>
+<td><code>leave note B</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>if (!note A)</code></td>
+</tr>
+<tr>
+<td></td>
+<td>(PASS) <code>if (milk == 0)</code></td>
+</tr>
+<tr>
+<td></td>
+<td>(PASS) <code>buy milk</code></td>
+</tr>
+<tr>
+<td><code>if (!note B)</code></td>
+<td><em>Interleaves</em></td>
+</tr>
+<tr>
+<td>(PASS) <code>if (milk == 0)</code></td>
+<td></td>
+</tr>
+<tr>
+<td>(PASS) <code>buy milk</code></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="solution-3-busy-waiting">Solution 3: Busy waiting</h4>
+<ul>
+<li>Thread A</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">leave note A
+while (note B)
+	do nothing
+if (milk == 0)
+	buy milk
+remove note A
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>Thread B</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">leave note B
+if (!note A)
+{
+	if (milk == 0)
+		buy milk
+}
+remove note B
+</code></pre></td></tr></table>
+</div>
+</div><p>This solution is both <strong>safe</strong> and <strong>live</strong>. Since thread B does not have a loop, it will eventually finish its execution.</p>
+<p>However, this solution is not very satisfying:</p>
+<ul>
+<li>It is complex and requires caregul reasoning to be convinced that it works.</li>
+<li>It is <em>inefficient</em> because thread A is <em>busy waiting</em>, consuming CPU resources.</li>
+<li>It may fail if the compiler or hardware reorders instructions.</li>
+</ul>
+<h4 id="solution-4-locksnoteslockmd">Solution 4: 
+
+
+<a href="../../notes/Lock" rel="noopener" class="internal-link" data-src="../../notes/Lock">Locks</a></h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">lock.acquire()
+if (milk == 0)
+	buy milk
+lock.release()
+</code></pre></td></tr></table>
+</div>
+</div>
 
     </article>
     <hr/>
@@ -424,6 +741,8 @@ if (!doNotTrack) {
     
     
     <li>
+            <a href="../../notes/Lock">Lock</a>
+        </li><li>
             <a href="../../notes/Operating-systems">Operating systems</a>
         </li>
 </ul>
@@ -443,7 +762,7 @@ if (!doNotTrack) {
     }
 </style>
 <script>
-  const curPage = "https://azure-wings.github.io/wiki/notes/Semaphore".replace("https://azure-wings.github.io/wiki", "")
+  const curPage = "https://azure-wings.github.io/wiki/notes/Too-much-milk-problem".replace("https://azure-wings.github.io/wiki", "")
   const pathColors = [{"/moc":"#4388cc"}]
   let depth =  -1 
 

@@ -34,6 +34,15 @@
     </item>
     
     <item>
+      <title>Atomic operation</title>
+      <link>https://azure-wings.github.io/wiki/notes/Atomic-operation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Atomic-operation/</guid>
+      <description>Definition An atomic operation is an indivisible operation that cannot be ineterleaved or split by other operations.</description>
+    </item>
+    
+    <item>
       <title>Basis</title>
       <link>https://azure-wings.github.io/wiki/notes/Basis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -49,6 +58,15 @@
       
       <guid>https://azure-wings.github.io/wiki/index/Books/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Bounded buffer problem</title>
+      <link>https://azure-wings.github.io/wiki/notes/Bounded-buffer-problem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Bounded-buffer-problem/</guid>
+      <description>Definition 1 2 3 4 5  +----------+ +----------+ | | +----------+ | | | Producer |---&amp;gt;| Buffer |---&amp;gt;| Consumer | | | +----------+ | | +----------+ +----------+    The producer puts objects into a shared buffer.</description>
     </item>
     
     <item>
@@ -111,7 +129,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://azure-wings.github.io/wiki/notes/Condition-variable/</guid>
-      <description></description>
+      <description>Definition A condition variable is a synchronisation object that lets a thread efficiently wait for a change to shared state that is protected by a lock.</description>
     </item>
     
     <item>
@@ -130,6 +148,15 @@
       
       <guid>https://azure-wings.github.io/wiki/notes/Cramers-rule/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Critical section</title>
+      <link>https://azure-wings.github.io/wiki/notes/Critical-section/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Critical-section/</guid>
+      <description>Definition A critical section is a sequence of code that atomically accesses shared state.</description>
     </item>
     
     <item>
@@ -255,7 +282,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://azure-wings.github.io/wiki/notes/Lock/</guid>
-      <description></description>
+      <description>Definition A lock is a synchronisation variable that provides mutual exclusion - when one thread holds a lock, no other thread can hold it.</description>
     </item>
     
     <item>
@@ -328,7 +355,7 @@ Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://azure-wings.github.io/wiki/notes/Operating-systems/</guid>
-      <description>Kernels and Processes   Process  Dual-mode operation  Mode transfer   Implementation of mode transfer  x86 Mode transfer    Secure system call  System upcalls  Concurrency and Threads   Thread   Comparison between processes and threads  Thread data structures  Thread life cycle  Thread models    Synchronisation   Lock  Condition variable  Semaphore  Deadlock  Scheduling   Separation of mechanism and policy   </description>
+      <description>Kernels and Processes   Process  Dual-mode operation  Mode transfer   Implementation of mode transfer  x86 Mode transfer    Secure system call  System upcalls  Concurrency and Threads   Thread   Comparison between processes and threads  Thread data structures  Thread life cycle  Thread models    Synchronisation   Atomic operation  Critical section  Race condition   Too much milk problem  Bounded buffer problem    Lock  Condition variable  Semaphore  Deadlock  Scheduling   Separation of mechanism and policy   </description>
     </item>
     
     <item>
@@ -364,7 +391,7 @@ Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://azure-wings.github.io/wiki/notes/Programming-language-theory/</guid>
-      <description>Programming language theory (PLT) is a branch of computer science that deals with the design, implementation, analysis, characterization, and classification of formal languages known as programming languages and of their individual features.</description>
+      <description>Programming language theory (PLT) is a branch of computer science that deals with the design, implementation, analysis, characterisation, and classification of formal languages known as programming languages and of their individual features.</description>
     </item>
     
     <item>
@@ -377,6 +404,15 @@ Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the f
     </item>
     
     <item>
+      <title>Race condition</title>
+      <link>https://azure-wings.github.io/wiki/notes/Race-condition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Race-condition/</guid>
+      <description>Definition A race condition is a situation where multiple process access and manipulate the same data concurrently, and the outcome of the execution depends on the particular order (interleaving) of such accesses.</description>
+    </item>
+    
+    <item>
       <title>Secure system call</title>
       <link>https://azure-wings.github.io/wiki/notes/Secure-system-call/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -386,11 +422,11 @@ Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the f
     </item>
     
     <item>
-      <title>Semantics</title>
-      <link>https://azure-wings.github.io/wiki/notes/Semantics/</link>
+      <title>Semantic</title>
+      <link>https://azure-wings.github.io/wiki/notes/Semantic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://azure-wings.github.io/wiki/notes/Semantics/</guid>
+      <guid>https://azure-wings.github.io/wiki/notes/Semantic/</guid>
       <description></description>
     </item>
     
@@ -482,6 +518,15 @@ Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the f
       
       <guid>https://azure-wings.github.io/wiki/notes/Thread-models/</guid>
       <description>Support for threads may be provided either at the user level, for user threads, or by the kernel, for kernel threads.</description>
+    </item>
+    
+    <item>
+      <title>Too much milk problem</title>
+      <link>https://azure-wings.github.io/wiki/notes/Too-much-milk-problem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Too-much-milk-problem/</guid>
+      <description>Definition The Too Much Milk problem models two roommates who share a refrigerator and, who make sure the refrigerator is always well stocked with milk.</description>
     </item>
     
     <item>
