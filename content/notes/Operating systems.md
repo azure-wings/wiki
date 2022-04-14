@@ -21,6 +21,11 @@ toc: true
 	- [Thread models](/notes/Thread%20models)
 
 ## Synchronisation
+- [Atomic operation](/notes/Atomic%20operation)
+- [Critical section](notes/Critical%20section.md)
+- [Race condition](/notes/Race%20condition)
+	- [Too much milk problem](/notes/Too%20much%20milk%20problem)
+	- [Bounded buffer problem](notes/Bounded%20buffer%20problem.md)
 - [Lock](/notes/Lock)
 - [Condition variable](/notes/Condition%20variable)
 - [Semaphore](/notes/Semaphore)

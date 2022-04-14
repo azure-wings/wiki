@@ -6,7 +6,7 @@ toc: true
 
 **Computer architecture** is a set of rules and methods that describe the functionality, organisation, and implementation of computer systems.
 
-## Computer abstractions
+## Computer Abstractions
 - [Performance](notes/Performance)
 
 ## Instructions

@@ -1,6 +1,6 @@
 ---
 title: "MIPS Assembly language"
-math: true
+math: false
 toc: true
 ---
 

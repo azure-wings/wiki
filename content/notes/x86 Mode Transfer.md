@@ -40,4 +40,4 @@ When a processor exception or a system call trap occurs, the following procedure
 - State of the system after the interrupt handler has started executing
 ![x86-mode-switch-3](/notes/images/x86-mode-switch-3.png)
 
-When the handler completes, it can resume the interrupted process. The handler executes the x86 `iret` instruction. It atomically restores the program counter, program stack pointer, the processor status word/condition codes, and switches the process back to user mode.
+When the handler completes, it can resume the interrupted process. The handler executes the x86 `iret` instruction. It [atomically](/notes/Atomic%20operation) restores the program counter, program stack pointer, the processor status word/condition codes, and switches the process back to user mode.

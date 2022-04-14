@@ -1,5 +1,5 @@
 ---
-title: "Semantics"
+title: "Semantic"
 math: true
 toc: true
 ---

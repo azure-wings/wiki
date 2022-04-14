@@ -10,7 +10,7 @@ The context switch ([mode transfer](notes/Mode%20transfer.md)) must be carefully
 At a minimum, this common sequence must provide the followings.
 
 - **Limited entry into the kernel**: User programs cannot be allowed to jump to arbitrary locations in the kernel.
-- **Atomic changes to processor state**: Transitioning between kernel and user mode is atomic; _the mode, program counter, stack and memory protection_ are all changed _<u>at the same time</u> (with a single instruction).
+- **Atomic changes to processor state**: Transitioning between kernel and user mode is [atomic](/notes/Atomic%20operation); _the mode, program counter, stack and memory protection_ are all changed _<u>at the same time</u> (with a single instruction).
 -  **Transparent, restatable execution**: The operating system must be able to restore the state of the user program exactly as it was before the context switch.
 
 ## Interrupt Vector
