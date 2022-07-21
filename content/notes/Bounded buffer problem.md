@@ -16,7 +16,7 @@ toc: true
 - The producer puts objects into a shared buffer.
 - The consumer takes them out.
 - There must be a synchronisation to coordinate between the producer and the consumer.
-- The producer and the consumer should not need to work in [lock](notes/Lock.md) step; there is a fixed-size buffer between them.
+- The producer and the consumer should not need to work in [lock](notes/Lock.md.md) step; there is a fixed-size buffer between them.
 	- The access to this buffer must be synchronised.
 	- The producer must wait if the buffer is full.
 	- The consumer must wait if the buffer is empty.
@@ -75,4 +75,4 @@ Here, the shared states are `buffer`, `front`, and `tail`.
 
 However, one cannot assure that the `buffer` is empty when `try_get ()` returns `NULL`.
 - If a producer generates an item between `lock_release ()` and `return`, even though the `buffer` is not empty, `try_get ()` returns `NULL`.
-- For a thread to know when the `buffer` is empty, there must be _[another primitive](notes/Condition%20variable.md)_ for the purpose.
+- For a thread to know when the `buffer` is empty, there must be _[another primitive](notes/Condition%20variable.md.md)_ for the purpose.

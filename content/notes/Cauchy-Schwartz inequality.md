@@ -9,4 +9,4 @@ $$
 $$
 
 ### Generalization
-See [Hölder's inequality](notes/Hölder's%20inequality).
+See [Hölder's inequality](notes/H%C3%B6lder's%20inequality.md).

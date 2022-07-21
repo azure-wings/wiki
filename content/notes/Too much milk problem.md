@@ -34,14 +34,14 @@ A program must, eventually, enter a good state.
 The basic idea is to leave a note on the fridge before going to the store. The simplest idea to implement this is to set a flag when going to buy milk and to check this flag before going to buy milk.
 
 ```
-if (milk == 0)         // If no milk
+if (milk == 0)   // If no milk
 {
-	if (!note)     // If no note
-	{
-		leave note
-		buy milk
-		remove note
-	}
+  if (!note)     // If no note
+  {
+    leave note
+    buy milk
+    remove note
+  }
 }
 ```
 
@@ -66,8 +66,8 @@ However, this implementation can violate safety; it makes the problem worse sinc
 leave note A
 if (!note B)
 {
-	if (milk == 0)
-		buy milk
+  if (milk == 0)
+	buy milk
 }
 remove note A
 ```
@@ -76,8 +76,8 @@ remove note A
 leave note B
 if (!note A)
 {
-	if (milk == 0)
-		buy milk
+  if (milk == 0)
+	buy milk
 }
 remove note B
 ```
@@ -101,9 +101,9 @@ This solution is **safe**. However, this solution does not ensure **liveliness**
 ```
 leave note A
 while (note B)
-	do nothing
+  do nothing
 if (milk == 0)
-	buy milk
+  buy milk
 remove note A
 ```
 
@@ -112,8 +112,8 @@ remove note A
 leave note B
 if (!note A)
 {
-	if (milk == 0)
-		buy milk
+  if (milk == 0)
+    buy milk
 }
 remove note B
 ```
@@ -126,10 +126,10 @@ However, this solution is not very satisfying:
 - It is _inefficient_ because thread A is _busy waiting_, consuming CPU resources.
 - It may fail if the compiler or hardware reorders instructions.
 
-#### Solution 4: [Locks](notes/Lock.md)
+#### Solution 4: [Locks](notes/Lock.md.md)
 ```
 lock.acquire()
 if (milk == 0)
-	buy milk
+  buy milk
 lock.release()
 ```

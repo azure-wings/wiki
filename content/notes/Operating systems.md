@@ -5,32 +5,32 @@ toc: true
 ---
 
 ## Kernels and Processes
-- [Process](/notes/Process)
-- [Dual-mode operation](/notes/Dual-mode%20operation)
-- [Mode transfer](/notes/Mode%20transfer)
-	- [Implementation of mode transfer](/notes/Implementation%20of%20mode%20transfer)
-	- [x86 Mode transfer](/notes/x86%20Mode%20Transfer)
-- [Secure system call](/notes/Secure%20system%20call)
-- [System upcalls](/notes/System%20upcalls)
+- [Process](Process.md)
+- [Dual-mode operation](Dual-mode%20operation.md)
+- [Mode transfer](Mode%20transfer.md)
+	- [Implementation of mode transfer](Implementation%20of%20mode%20transfer.md)
+	- [x86 Mode transfer](/notes/x86%20Mode%20Transfer.md)
+- [Secure system call](Secure%20system%20call.md)
+- [System upcalls](System%20upcalls.md)
 
 ## Concurrency and Threads
-- [Thread](/notes/Thread)
-	- [Comparison between processes and threads](/notes/Comparison%20between%20processes%20and%20threads)
-	- [Thread data structures](/notes/Thread%20data%20structures)
-	- [Thread life cycle](/notes/Thread%20life%20cycle)
-	- [Thread models](/notes/Thread%20models)
+- [Thread](Thread.md)
+	- [Comparison between processes and threads](Comparison%20between%20processes%20and%20threads.md)
+	- [Thread data structures](Thread%20data%20structures.md)
+	- [Thread life cycle](Thread%20life%20cycle.md)
+	- [Thread models](Thread%20models.md)
 
 ## Synchronisation
-- [Atomic operation](/notes/Atomic%20operation)
-- [Critical section](notes/Critical%20section.md)
-- [Race condition](/notes/Race%20condition)
-	- [Too much milk problem](/notes/Too%20much%20milk%20problem)
-	- [Bounded buffer problem](notes/Bounded%20buffer%20problem.md)
-- [Lock](/notes/Lock)
-- [Condition variable](/notes/Condition%20variable)
-- [Semaphore](/notes/Semaphore)
-- [Deadlock](/notes/Deadlock)
+- [Atomic operation](Atomic%20operation.md)
+- [Critical section](Critical%20section.md.md)
+- [Race condition](Race%20condition.md)
+	- [Too much milk problem](Too%20much%20milk%20problem.md)
+	- [Bounded buffer problem](Bounded%20buffer%20problem.md)
+- [Lock](Lock.md)
+- [Condition variable](Condition%20variable.md)
+- [Semaphore](Semaphore.md)
+- [Deadlock](Deadlock.md)
 
 ## Scheduling
-- [Separation of mechanism and policy](notes/Separation%20of%20mechanism%20and%20policy.md)
+- [Separation of mechanism and policy](Separation%20of%20mechanism%20and%20policy.md)
 - 

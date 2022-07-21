@@ -14,14 +14,14 @@ A lock enables mutual exclusion by providing two methods: `Lock::acquire()` and 
 - A lock is initially in the `free` state.
 - **`Lock::acquire()`**
 	- The caller thread **waits** until the lock is `free` and then atomically makes the lock `busy`.
-	- Checking the state of a lock and setting the state to `busy` are, together, an [atomic operation](notes/Atomic%20operation.md).
+	- Checking the state of a lock and setting the state to `busy` are, together, an [atomic operation](notes/Atomic%20operation.md.md).
 	- Even if multiple threads try to acquire the lock, at most one thread will succeed.
 - **`Lock::release()`** 
 	- This call makes the lock `free`.
 	- If there are pending `acquire()` operations, this state change causes one of them to proceed.
 
 ## Properties
-A lock should ensure the three properties: **mutual exclusion**, **progress**, and **bounded waiting**. Mutual exclusion ensures [safety](notes/Too%20much%20milk%20problem#Safety), while progress and bounded waiting ensures [liveliness](notes/Too%20much%20milk%20problem#Liveliness).
+A lock should ensure the three properties: **mutual exclusion**, **progress**, and **bounded waiting**. Mutual exclusion ensures [safety](notes/Too%20much%20milk%20problem.md.md), while progress and bounded waiting ensures [liveliness](notes/Too%20much%20milk%20problem.md.md).
 
 #### Mutual Exclusion
 At most **one** thread can hold the lock.

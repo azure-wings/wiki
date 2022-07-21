@@ -5,7 +5,7 @@ toc: true
 ---
 
 ## Necessity of System Upcalls
-To allow applications to implement operating system-like functionality, more than [system call](/notes/Mode%20transfer#System%20Calls) is required; applications can also benefit from being told when events occur that _need their immediate attention_. Such _virtualised_ interrupts and exceptions are called **upcalls**, also known as **signals** (in UNIX).
+To allow applications to implement operating system-like functionality, more than [](/notes/Mode%20transfer.md#System%20Calls) is required; applications can also benefit from being told when events occur that _need their immediate attention_. Such _virtualised_ interrupts and exceptions are called **upcalls**, also known as **signals** (in UNIX).
 
 ## Uses of System Upcalls
 #### Preemptive user-level threads
@@ -31,20 +31,20 @@ Many applications are able to optimise their behaviour to differing amounts of C
 - The state of the user program and signal handler during a UNIX signal
 ![upcall-during](/notes/images/upcall-during.png)
 
-## Comparison with [Interrupts](/notes/Mode%20transfer#Interrupts)
+## Comparison with [](/notes/Mode%20transfer.md#Interrupts)
 #### Types of Signals
 - In place of hardware-defined interrupts and processor exceptions, the kernel defines a limited number of sifnal types that a process can receive.
 
 #### Handlers
-- The kernel defines its own [interrupt vector](/notes/Implementation%20of%20mode%20transfer#Interrupt%20Vector).
+- The kernel defines its own [](/notes/Implementation%20of%20mode%20transfer.md#Interrupt%20Vector).
 - Each process defines its own signal handlers for each signal type.
 
 #### Signal Stack
-- The kernel uses [interrupt stack](/notes/Implementation%20of%20mode%20transfer#Interrupt%20Stack), a region of _kernel_ memory when handling interrupts.
+- The kernel uses [](/notes/Implementation%20of%20mode%20transfer.md#Interrupt%20Stack), a region of _kernel_ memory when handling interrupts.
 - Applications have the option to run UNIX signal handlers on the process's _normal execution stack_, or on a special **signal stack** allocated buy the user process in user memory.
 
 #### Signal Masking
-- The kernel can defer the arrival of interrupts via [interrupt masking](/notes/Implementation%20of%20mode%20transfer#Interrupt%20Masking).
+- The kernel can defer the arrival of interrupts via [](/notes/Implementation%20of%20mode%20transfer.md#Interrupt%20Masking).
 - UNIX defers signals for events that occur while the signal handler for those types of events is in progress.
 - The deferred signal is delivered once the handler returns to the kernel.
 

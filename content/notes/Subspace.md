@@ -5,7 +5,7 @@ toc: true
 ---
 
 ## Definition
-> Let $V$ be a [vector space](notes/Vector%20space.md) over the [field](notes/Field.md) $F$. A **subspace** of $V$ is a subset $W \subset V$ which itself is a vector space over $F$ with the same operations defined on $V$.
+> Let $V$ be a [vector space](notes/Vector%20space.md.md) over the [field](notes/Field.md.md) $F$. A **subspace** of $V$ is a subset $W \subset V$ which itself is a vector space over $F$ with the same operations defined on $V$.
 
 ## Theorems
 ### Theorem 1 [^1]

@@ -5,7 +5,7 @@ math: true
 
 ## Definition
 
-A vector space $V$ over a [field](notes/Field.md) $F$ consists of a set on which two operations $+$ (_addition_) and $\cdot$ (_scalar multiplication_) are defined so that the followings hold.
+A vector space $V$ over a [field](notes/Field.md.md) $F$ consists of a set on which two operations $+$ (_addition_) and $\cdot$ (_scalar multiplication_) are defined so that the followings hold.
 
 For any $\mathbf{x}, \mathbf{y}, \mathbf{z} \in V$ and $c, d \in F$:
 > **(A1)** $\mathbf{x}, \mathbf{y} \in V \Rightarrow \mathbf{x} + \mathbf{y} \in V$
@@ -48,6 +48,6 @@ where $c_i \in F$ $(i= 0, \cdots, n)$ are independent of $x$.
 
 
 ## Related Concepts
-- [Norm](notes/Norm.md): Defines a distance-like property in vector spaces
-- [Inner product](notes/Inner%20product.md): Allows the concept of 'direction' to be considered in vector spaces
+- [Norm](Norm.md): Defines a distance-like property in vector spaces
+- [Inner product](Inner%20product.md): Allows the concept of 'direction' to be considered in vector spaces
  

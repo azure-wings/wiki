@@ -9,5 +9,5 @@ A **process** is an instance of a program; it is the execution of a program with
 The operating system keeps track of the processes on the computer using a data structure called the **process control block** (PCB).
 
 
-## Comparison with [threads](/notes/Thread)
-- [Comparison between processes and threads](/notes/Comparison%20between%20processes%20and%20threads)
+## Comparison with [threads](/notes/Thread.md)
+- [Comparison between processes and threads](Comparison%20between%20processes%20and%20threads.md)

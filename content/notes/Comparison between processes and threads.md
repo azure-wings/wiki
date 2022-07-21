@@ -5,7 +5,7 @@ toc: true
 ---
 
 ## Comparison
-|                        | [Processes](/notes/Process)                 | [Threads](/notes/Thread)                                                    |
+|                        | [Processes](/notes/Process.md)                 | [Threads](/notes/Thread.md)                                                    |
 | ---------------------- | ------------------------------------------- | --------------------------------------------------------------------------- |
 | Switch Overhead        | High (CPU state + Memory, I/O state)        | Low (CPU state only)                                                        |
 | Creation Cost          | High                                        | Low                                                                         |

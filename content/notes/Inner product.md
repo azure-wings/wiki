@@ -4,7 +4,7 @@ math: true
 ---
 
 ## Definition
-An inner product on a [vector space](notes/Vector%20space.md) $V$ over a [field](notes/Field.md) is a function $\langle \cdot,\cdot\rangle:V^2 \to F$ that satisfies the followings:
+An inner product on a [vector space](notes/Vector%20space.md.md) $V$ over a [field](notes/Field.md.md) is a function $\langle \cdot,\cdot\rangle:V^2 \to F$ that satisfies the followings:
 
 For arbitrary $\mathbf{x}, \mathbf{y}, \mathbf{z} \in V$ and $c \in \mathbb{R}$,
 > **(1)** $\langle a\mathbf{x}+\mathbf{y},\mathbf{z}\rangle = a\langle \mathbf{x},\mathbf{z}\rangle + \langle \mathbf{y},\mathbf{z}\rangle$ 　(Linearity for the first argument)
@@ -20,7 +20,7 @@ A standard inner space in $\mathbb{R}^n$ is defined for $\mathbf{x} = (x_1, \cdo
 $$
 \langle\mathbf{x},\mathbf{y}\rangle = \mathbf{x}^\top\mathbf{y} = \sum\limits_{i=1}^n x_iy_i.
 $$
-Note that for the Euclidean [norm](notes/Norm.md),
+Note that for the Euclidean [norm](notes/Norm.md.md),
 $$
 \|\mathbf{x}\|_2 = \sqrt{\langle\mathbf{x},\mathbf{x}\rangle}.
 $$
