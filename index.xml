@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://azure-wings.github.io/wiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title></title>
+      <link>https://azure-wings.github.io/wiki/notes/Parser/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/notes/Parser/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Abstract syntax</title>
       <link>https://azure-wings.github.io/wiki/notes/Abstract-syntax/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -40,6 +49,16 @@
       
       <guid>https://azure-wings.github.io/wiki/notes/Atomic-operation/</guid>
       <description>Definition An atomic operation is an indivisible operation that cannot be ineterleaved or split by other operations.</description>
+    </item>
+    
+    <item>
+      <title>azure-wiki</title>
+      <link>https://azure-wings.github.io/wiki/_index-azurewings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/_index-azurewings/</guid>
+      <description> Wiki made by azurewings
+ Index 📚 Academic   Mathematics  Computer science  Business administration  Economics  📁 Archives   Books  Movies  </description>
     </item>
     
     <item>
@@ -103,6 +122,24 @@
       
       <guid>https://azure-wings.github.io/wiki/notes/Computer-architecture/</guid>
       <description>Computer architecture is a set of rules and methods that describe the functionality, organisation, and implementation of computer systems.</description>
+    </item>
+    
+    <item>
+      <title>Computer engineering</title>
+      <link>https://azure-wings.github.io/wiki/index/Computer-engineering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/index/Computer-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer science</title>
+      <link>https://azure-wings.github.io/wiki/index/Computer-science-azurewings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/index/Computer-science-azurewings/</guid>
+      <description>Computer science is the study of computation, automation, and information.</description>
     </item>
     
     <item>
@@ -296,6 +333,15 @@
     
     <item>
       <title>Mathematics</title>
+      <link>https://azure-wings.github.io/wiki/index/Mathematics-azurewings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://azure-wings.github.io/wiki/index/Mathematics-azurewings/</guid>
+      <description>Mathematics is a study of abstract concepts such as numbers, quantities, spaces, changes, structures, etc.</description>
+    </item>
+    
+    <item>
+      <title>Mathematics</title>
       <link>https://azure-wings.github.io/wiki/index/Mathematics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -481,7 +527,7 @@ Definition A function $|\cdot|: V\to \mathbb{R}$ is a norm if it satisfies the f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://azure-wings.github.io/wiki/notes/System-upcalls/</guid>
-      <description>Necessity of System Upcalls To allow applications to implement operating system-like functionality, more than system call is required; applications can also benefit from being told when events occur that need their immediate attention.</description>
+      <description>Necessity of System Upcalls To allow applications to implement operating system-like functionality, more than  is required; applications can also benefit from being told when events occur that need their immediate attention.</description>
     </item>
     
     <item>
